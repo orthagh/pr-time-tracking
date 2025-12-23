@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             case '3months': startDate = now.clone().subtract(3, 'months'); break;
             case '6months': startDate = now.clone().subtract(6, 'months'); break;
             case 'year': startDate = now.clone().subtract(1, 'year'); break;
+            case '2years': startDate = now.clone().subtract(2, 'years'); break;
             default: startDate = now.clone().subtract(6, 'months');
         }
 

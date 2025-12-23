@@ -34,7 +34,7 @@ async function run() {
 
     // Use a composite key to track existing records (runId + category)
     const existingKeys = new Set(allData.map(d => `${d.id}_${d.job_category}`));
-    const oneYearAgo = moment().subtract(1, "year").startOf("month");
+    const twoYearsAgo = moment().subtract(2, "years").startOf("month");
 
     console.log(`Mode: ${mode}`);
     console.log(`Branches: ${branches.join(", ")}`);
@@ -122,8 +122,8 @@ async function run() {
             state.currentMonth = currentMonth.format("YYYY-MM");
             await fs.writeJson(STATE_FILE, state, { spaces: 2 });
 
-            if (currentMonth.isBefore(oneYearAgo)) {
-                console.log("Reached one year limit. Done.");
+            if (currentMonth.isBefore(twoYearsAgo)) {
+                console.log("Reached two year limit. Done.");
                 stopFetching = true;
             }
         }
