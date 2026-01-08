@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
+    "fetch": "node fetch_data.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

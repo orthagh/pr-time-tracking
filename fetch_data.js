@@ -10,7 +10,7 @@ async function run() {
     const args = process.argv.slice(2);
     const mode = args.includes("--newer") ? "newer" : "older";
 
-    const GITHUB_TOKEN = execSync("gh auth token").toString().trim();
+    const GITHUB_TOKEN = process.env.GH_TOKEN || execSync("gh auth token").toString().trim();
     const octokit = new Octokit({ auth: GITHUB_TOKEN });
 
     const owner = "glpi-project";

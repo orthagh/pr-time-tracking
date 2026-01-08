@@ -1,0 +1,56 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 2 * * *' # Every day at 2 AM
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Download existing data
+        run: |
+          mkdir -p public
+          curl -s -f https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/data.json -o data.json || echo "data.json not found"
+          curl -s -f https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/state.json -o state.json || echo "state.json not found"
+
+      - name: Fetch new data
+        run: npm run fetch -- --newer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prepare public assets
+        run: |
+          mkdir -p public
+          cp data.json public/
+          cp state.json public/
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
