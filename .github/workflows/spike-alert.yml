@@ -1,0 +1,73 @@
+name: CI Duration Spike Alert
+
+on:
+  workflow_run:
+    workflows: ["Deploy to GitHub Pages"]
+    types:
+      - completed
+  schedule:
+    - cron: '0 */6 * * *'  # Every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-spike:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' || github.event_name == 'schedule' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Download data.json from gh-pages
+        run: |
+          curl -s -f https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/data.json -o data.json || {
+            echo "Failed to download data.json"
+            exit 1
+          }
+
+      - name: Check for duration spikes
+        id: spike_check
+        continue-on-error: true
+        run: npm run check-spike
+
+      - name: Create issue if spike detected
+        if: steps.spike_check.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const title = '⚠️ CI Duration Spike Detected';
+            
+            // Check for existing open issue
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'ci-spike'
+            });
+            
+            if (issues.some(issue => issue.title === title)) {
+              console.log('Open issue already exists, skipping creation');
+              return;
+            }
+            
+            const spikeDetails = `${{ steps.spike_check.outputs.spike_details }}` || 'See workflow run for details';
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: title,
+              body: `## CI Duration Spike Alert\n\nA significant increase in CI job duration has been detected.\n\n### Details\n\n${spikeDetails}\n\n### Action Required\n\n- Investigate recent changes that may have caused the slowdown\n- Check the [dashboard](https://orthagh.github.io/pr-time-tracking/) for visual trends\n\n---\n*This issue was automatically created by the spike detection workflow.*`,
+              labels: ['ci-spike']
+            });

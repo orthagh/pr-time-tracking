@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "fetch": "node fetch_data.js",
+    "check-spike": "node check_spike.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
