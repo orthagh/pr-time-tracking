@@ -64,7 +64,7 @@
         </section>
 
         <section class="chart-container">
-            <h2 class="chart-title">Execution Time History</h2>
+            <h2 class="chart-title" data-tooltip="Click on data points to view associated commits/runs on GitHub.">Execution Time History <span class="info-icon">i</span></h2>
             <button id="resetZoom" class="btn-reset">Reset Zoom</button>
             <canvas id="timeChart"></canvas>
         </section>
@@ -73,10 +73,6 @@
             <h2 class="chart-title">Monthly Average Duration</h2>
             <canvas id="monthlyChart"></canvas>
         </section>
-
-        <footer class="footer">
-            <p>Click on data points to view associated commits/runs on GitHub.</p>
-        </footer>
     </main>
 
     <script src="app.js"></script>

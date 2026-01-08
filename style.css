@@ -245,6 +245,9 @@ h1 {
     border: 1px solid var(--border-color);
     backdrop-filter: blur(8px);
     line-height: 1.4;
+    text-transform: none;
+    letter-spacing: normal;
+    font-weight: 400;
 }
 
 [data-tooltip]:hover::after {
