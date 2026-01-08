@@ -1,0 +1,122 @@
+[
+  {
+    "id": 20800662061,
+    "created_at": "2026-01-08T00:05:07Z",
+    "duration": 2089,
+    "sha": "7700f5929de745d5de66eab53c937c4c2031aa48",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20800662061",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20800662061,
+    "created_at": "2026-01-08T00:05:07Z",
+    "duration": 3208,
+    "sha": "7700f5929de745d5de66eab53c937c4c2031aa48",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20800662061",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20753372088,
+    "created_at": "2026-01-06T15:40:03Z",
+    "duration": 2010,
+    "sha": "9c45311a2950eb6e4c29ad14af8b639978c9815c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20753372088",
+    "pr": null,
+    "display_title": "Fix(MetaSearch): fix first init of searchoption (#22575)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20753372088,
+    "created_at": "2026-01-06T15:40:03Z",
+    "duration": 3393,
+    "sha": "9c45311a2950eb6e4c29ad14af8b639978c9815c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20753372088",
+    "pr": null,
+    "display_title": "Fix(MetaSearch): fix first init of searchoption (#22575)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20748756228,
+    "created_at": "2026-01-06T12:48:07Z",
+    "duration": 2111,
+    "sha": "3bbb7160552d73542c0dfcb10a7c24b018950a3a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20748756228",
+    "pr": null,
+    "display_title": "Upgrade npm dev dependencies to get latest security fixes",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20748756228,
+    "created_at": "2026-01-06T12:48:07Z",
+    "duration": 4124,
+    "sha": "3bbb7160552d73542c0dfcb10a7c24b018950a3a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20748756228",
+    "pr": null,
+    "display_title": "Upgrade npm dev dependencies to get latest security fixes",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20733136690,
+    "created_at": "2026-01-06T00:05:33Z",
+    "duration": 2117,
+    "sha": "4a725623064fb1389222f2f4143921be2a3edea9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20733136690",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20733136690,
+    "created_at": "2026-01-06T00:05:33Z",
+    "duration": 4213,
+    "sha": "4a725623064fb1389222f2f4143921be2a3edea9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20733136690",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20724475839,
+    "created_at": "2026-01-05T18:01:30Z",
+    "duration": 2017,
+    "sha": "c67b05466e24f9d699773ebe50bd67154cfce6f1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20724475839",
+    "pr": null,
+    "display_title": "Bump webonyx/graphql-php from 15.26.0 to 15.29.3",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 20724475839,
+    "created_at": "2026-01-05T18:01:30Z",
+    "duration": 4232,
+    "sha": "c67b05466e24f9d699773ebe50bd67154cfce6f1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20724475839",
+    "pr": null,
+    "display_title": "Bump webonyx/graphql-php from 15.26.0 to 15.29.3",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  }
+]

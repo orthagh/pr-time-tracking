@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PR Execution Time Tracker | GLPI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DqIBHMGE.css">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="container">
+        <header class="hero">
+            <h1>PR Execution Time Tracker</h1>
+            <p class="subtitle">GLPI CI Performance Tracker (main & 11.0/bugfixes)</p>
+            <div class="controls-container">
+                <div class="control-group">
+                    <label for="jobCategory">Tracking Job:</label>
+                    <select id="jobCategory" class="job-select">
+                        <option value="PHP Tests">PHP Tests</option>
+                        <option value="E2E Tests">E2E Tests</option>
+                    </select>
+                </div>
+                <div class="control-group">
+                    <label for="timePeriod">Period:</label>
+                    <select id="timePeriod" class="job-select">
+                        <option value="week">Last Week</option>
+                        <option value="month">Last Month</option>
+                        <option value="3months">Last 3 Months</option>
+                        <option value="6months" selected>Last 6 Months</option>
+                        <option value="year">Last Year</option>
+                        <option value="2years">Last 2 Years</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <section class="stats-grid">
+            <div class="stat-card">
+                <span class="label">Average Duration</span>
+                <span class="value" id="stat-avg">--</span>
+                <span class="unit">min</span>
+            </div>
+            <div class="stat-card">
+                <span class="label">P95 Duration</span>
+                <span class="value" id="stat-p95">--</span>
+                <span class="unit">min</span>
+            </div>
+            <div class="stat-card">
+                <span class="label">Total Runs</span>
+                <span class="value" id="stat-total">--</span>
+                <span class="unit">records</span>
+            </div>
+        </section>
+
+        <section class="chart-container">
+            <h2 class="chart-title">Execution Time History</h2>
+            <button id="resetZoom" class="btn-reset">Reset Zoom</button>
+            <canvas id="timeChart"></canvas>
+        </section>
+
+        <section class="chart-container small">
+            <h2 class="chart-title">Monthly Average Duration</h2>
+            <canvas id="monthlyChart"></canvas>
+        </section>
+
+        <footer class="footer">
+            <p>Click on data points to view associated commits/runs on GitHub.</p>
+        </footer>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
