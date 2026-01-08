@@ -40,11 +40,15 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Prepare public assets
+      - name: Prepare assets
         run: |
           mkdir -p public
+          # Copy data.json to public for the dashboard build
           cp data.json public/
-          cp state.json public/
+          # Ensure both data.json and state.json are in the root for the next GitHub Pages deployment
+          # github-pages-deploy-action will push everything in the 'dist' folder
+          # Vite build will include everything in 'public' into 'dist'
+          [ -f state.json ] && cp state.json public/ || echo "No state.json to copy"
 
       - name: Build
         run: npm run build
