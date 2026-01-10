@@ -1,5 +1,53 @@
 [
   {
+    "id": 20869214983,
+    "created_at": "2026-01-10T00:05:03Z",
+    "duration": 1471,
+    "sha": "75849dca1fb306f3c2e539d1ea8f151b79d92160",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20869214983",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20869214983,
+    "created_at": "2026-01-10T00:05:03Z",
+    "duration": 3233,
+    "sha": "75849dca1fb306f3c2e539d1ea8f151b79d92160",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20869214983",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20853149592,
+    "created_at": "2026-01-09T13:17:41Z",
+    "duration": 1461,
+    "sha": "75849dca1fb306f3c2e539d1ea8f151b79d92160",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20853149592",
+    "pr": null,
+    "display_title": "Fix(DCroom): blueprint not visible",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20853149592,
+    "created_at": "2026-01-09T13:17:41Z",
+    "duration": 3281,
+    "sha": "75849dca1fb306f3c2e539d1ea8f151b79d92160",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20853149592",
+    "pr": null,
+    "display_title": "Fix(DCroom): blueprint not visible",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 20800662061,
     "created_at": "2026-01-08T00:05:07Z",
     "duration": 2089,
