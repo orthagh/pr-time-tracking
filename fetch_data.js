@@ -18,8 +18,8 @@ async function run() {
     const workflow_id = 22080;
     const branches = ["main", "11.0/bugfixes"];
     const jobCategories = {
-        "PHP Tests": "Test on PHP",
-        "E2E Tests": "E2E"
+        "PHP Tests": ["Test on PHP"],
+        "E2E Tests": ["E2E", "Playwright"]
     };
 
     let state = { currentMonth: moment().format("YYYY-MM") };
@@ -75,27 +75,37 @@ async function run() {
                             run_id: run.id
                         });
 
-                        for (const [category, prefix] of Object.entries(jobCategories)) {
+                        for (const [category, prefixes] of Object.entries(jobCategories)) {
                             const key = `${run.id}_${category}`;
                             if (existingKeys.has(key)) continue;
 
-                            const targetJob = jobs.jobs.find(j => j.name.startsWith(prefix) && j.status === "completed");
+                            // Find all jobs matching any of the prefixes for this category
+                            const matchingJobs = jobs.jobs.filter(j => 
+                                prefixes.some(prefix => j.name.startsWith(prefix)) && j.status === "completed"
+                            );
                             
-                            if (targetJob) {
-                                const start = moment(targetJob.started_at);
-                                const end = moment(targetJob.completed_at);
-                                const durationSeconds = end.diff(start, "seconds");
+                            if (matchingJobs.length > 0) {
+                                // Sum durations of all matching jobs
+                                let totalDurationSeconds = 0;
+                                const jobNames = [];
+                                
+                                for (const job of matchingJobs) {
+                                    const start = moment(job.started_at);
+                                    const end = moment(job.completed_at);
+                                    totalDurationSeconds += end.diff(start, "seconds");
+                                    jobNames.push(job.name);
+                                }
 
-                                if (durationSeconds >= 60) {
+                                if (totalDurationSeconds >= 60) {
                                     allData.push({
                                         id: run.id,
                                         created_at: run.created_at,
-                                        duration: durationSeconds,
+                                        duration: totalDurationSeconds,
                                         sha: run.head_sha,
                                         url: run.html_url,
                                         pr: run.pull_requests.length > 0 ? run.pull_requests[0].number : null,
                                         display_title: run.display_title,
-                                        job_name: targetJob.name,
+                                        job_name: jobNames.join(", "),
                                         job_category: category,
                                         branch: branch
                                     });
@@ -103,6 +113,7 @@ async function run() {
                                 }
                             }
                         }
+
                     } catch (err) {
                         console.error(`  Error fetching jobs for run ${run.id}: ${err.message}`);
                     }
