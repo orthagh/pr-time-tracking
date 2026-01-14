@@ -18,8 +18,8 @@ async function run() {
     const workflow_id = 22080;
     const branches = ["main", "11.0/bugfixes"];
     const jobCategories = {
-        "PHP Tests": ["Test on PHP"],
-        "E2E Tests": ["E2E", "Playwright"]
+        "PHP Tests": { prefixes: ["Test on PHP"], sum: false },
+        "E2E Tests": { prefixes: ["E2E", "Playwright"], sum: true }
     };
 
     let state = { currentMonth: moment().format("YYYY-MM") };
@@ -75,24 +75,33 @@ async function run() {
                             run_id: run.id
                         });
 
-                        for (const [category, prefixes] of Object.entries(jobCategories)) {
+                        for (const [category, config] of Object.entries(jobCategories)) {
                             const key = `${run.id}_${category}`;
                             if (existingKeys.has(key)) continue;
 
                             // Find all jobs matching any of the prefixes for this category
                             const matchingJobs = jobs.jobs.filter(j => 
-                                prefixes.some(prefix => j.name.startsWith(prefix)) && j.status === "completed"
+                                config.prefixes.some(prefix => j.name.startsWith(prefix)) && j.status === "completed"
                             );
                             
                             if (matchingJobs.length > 0) {
-                                // Sum durations of all matching jobs
                                 let totalDurationSeconds = 0;
-                                const jobNames = [];
+                                let jobNames = [];
                                 
-                                for (const job of matchingJobs) {
+                                if (config.sum) {
+                                    // Sum durations of all matching jobs (e.g., E2E + Playwright)
+                                    for (const job of matchingJobs) {
+                                        const start = moment(job.started_at);
+                                        const end = moment(job.completed_at);
+                                        totalDurationSeconds += end.diff(start, "seconds");
+                                        jobNames.push(job.name);
+                                    }
+                                } else {
+                                    // Take only the first matching job (e.g., one PHP test from matrix)
+                                    const job = matchingJobs[0];
                                     const start = moment(job.started_at);
                                     const end = moment(job.completed_at);
-                                    totalDurationSeconds += end.diff(start, "seconds");
+                                    totalDurationSeconds = end.diff(start, "seconds");
                                     jobNames.push(job.name);
                                 }
 
