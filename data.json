@@ -1,5 +1,29 @@
 [
   {
+    "id": 20999794586,
+    "created_at": "2026-01-14T15:31:51Z",
+    "duration": 1281,
+    "sha": "866e6c6b17f11678572da41865040436c83009b4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20999794586",
+    "pr": null,
+    "display_title": "Fix: object lock (#22408)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 20999794586,
+    "created_at": "2026-01-14T15:31:51Z",
+    "duration": 3723,
+    "sha": "866e6c6b17f11678572da41865040436c83009b4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/20999794586",
+    "pr": null,
+    "display_title": "Fix: object lock (#22408)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 20987457824,
     "created_at": "2026-01-14T08:28:06Z",
     "duration": 1279,
