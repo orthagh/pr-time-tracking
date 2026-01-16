@@ -1,5 +1,53 @@
 [
   {
+    "id": 21050725100,
+    "created_at": "2026-01-16T00:05:14Z",
+    "duration": 1137,
+    "sha": "19f08e3d79355d6f7d6d9e77b18557da1ff17b57",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21050725100",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21050725100,
+    "created_at": "2026-01-16T00:05:14Z",
+    "duration": 3676,
+    "sha": "19f08e3d79355d6f7d6d9e77b18557da1ff17b57",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21050725100",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21025597483,
+    "created_at": "2026-01-15T09:04:29Z",
+    "duration": 1253,
+    "sha": "2fa79d8568175bb07dc3ee77a85d993b144e7c3e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21025597483",
+    "pr": null,
+    "display_title": "[ci] Improve docker build process (#22660)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21025597483,
+    "created_at": "2026-01-15T09:04:29Z",
+    "duration": 3939,
+    "sha": "2fa79d8568175bb07dc3ee77a85d993b144e7c3e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21025597483",
+    "pr": null,
+    "display_title": "[ci] Improve docker build process (#22660)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 20999794586,
     "created_at": "2026-01-14T15:31:51Z",
     "duration": 1281,
