@@ -1,5 +1,53 @@
 [
   {
+    "id": 21084707867,
+    "created_at": "2026-01-17T00:05:02Z",
+    "duration": 1447,
+    "sha": "7c675d67d3dc56931fc051d340eeac881799ebd5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21084707867",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21084707867,
+    "created_at": "2026-01-17T00:05:02Z",
+    "duration": 3592,
+    "sha": "7c675d67d3dc56931fc051d340eeac881799ebd5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21084707867",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21067476044,
+    "created_at": "2026-01-16T13:01:04Z",
+    "duration": 1299,
+    "sha": "2191cbeb13a4a1e5691cba64bc19b835a1304310",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21067476044",
+    "pr": null,
+    "display_title": "Revert \"revert tabler-icons version\" (#22677)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 21067476044,
+    "created_at": "2026-01-16T13:01:04Z",
+    "duration": 3656,
+    "sha": "2191cbeb13a4a1e5691cba64bc19b835a1304310",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21067476044",
+    "pr": null,
+    "display_title": "Revert \"revert tabler-icons version\" (#22677)",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 21050725100,
     "created_at": "2026-01-16T00:05:14Z",
     "duration": 1137,
