@@ -1,5 +1,77 @@
 [
   {
+    "id": 21154872831,
+    "created_at": "2026-01-20T00:05:09Z",
+    "duration": 1474,
+    "sha": "cb7514f30b3cf84a888762cd8f8bcad8a128c7b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21154872831",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21154872831,
+    "created_at": "2026-01-20T00:05:09Z",
+    "duration": 3512,
+    "sha": "cb7514f30b3cf84a888762cd8f8bcad8a128c7b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21154872831",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21139118692,
+    "created_at": "2026-01-19T13:23:38Z",
+    "duration": 1259,
+    "sha": "cb7514f30b3cf84a888762cd8f8bcad8a128c7b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21139118692",
+    "pr": null,
+    "display_title": "Fix check for empty content from tinymce (#22732)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21139118692,
+    "created_at": "2026-01-19T13:23:38Z",
+    "duration": 3628,
+    "sha": "cb7514f30b3cf84a888762cd8f8bcad8a128c7b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21139118692",
+    "pr": null,
+    "display_title": "Fix check for empty content from tinymce (#22732)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21132613048,
+    "created_at": "2026-01-19T09:43:28Z",
+    "duration": 1466,
+    "sha": "e7ec541cd1ddb3ba6ab8a46e9a47f56e06ba007d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21132613048",
+    "pr": null,
+    "display_title": "Fix(ITIL template): category as read-only",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21132613048,
+    "created_at": "2026-01-19T09:43:28Z",
+    "duration": 3535,
+    "sha": "e7ec541cd1ddb3ba6ab8a46e9a47f56e06ba007d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21132613048",
+    "pr": null,
+    "display_title": "Fix(ITIL template): category as read-only",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 21102938250,
     "created_at": "2026-01-18T00:05:34Z",
     "duration": 1443,
