@@ -1,5 +1,53 @@
 [
   {
+    "id": 21419228128,
+    "created_at": "2026-01-28T00:05:15Z",
+    "duration": 1355,
+    "sha": "49b60b4f476b1baea14575978a5a34e2af6b48d1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21419228128",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21419228128,
+    "created_at": "2026-01-28T00:05:15Z",
+    "duration": 3813,
+    "sha": "49b60b4f476b1baea14575978a5a34e2af6b48d1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21419228128",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21392497020,
+    "created_at": "2026-01-27T09:52:22Z",
+    "duration": 1236,
+    "sha": "a28bdd850899d53e09a4b3fa7fb5ffbabc20f3a0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21392497020",
+    "pr": null,
+    "display_title": "Fix SO inversion; closes #22843",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21392497020,
+    "created_at": "2026-01-27T09:52:22Z",
+    "duration": 3578,
+    "sha": "a28bdd850899d53e09a4b3fa7fb5ffbabc20f3a0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21392497020",
+    "pr": null,
+    "display_title": "Fix SO inversion; closes #22843",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 21378958674,
     "created_at": "2026-01-27T00:05:55Z",
     "duration": 1640,
