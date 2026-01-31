@@ -1,5 +1,77 @@
 [
   {
+    "id": 21535008440,
+    "created_at": "2026-01-31T00:06:59Z",
+    "duration": 1578,
+    "sha": "c27f1dbd1d69633b72f325e95677f49f559e1a64",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21535008440",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21535008440,
+    "created_at": "2026-01-31T00:06:59Z",
+    "duration": 3495,
+    "sha": "c27f1dbd1d69633b72f325e95677f49f559e1a64",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21535008440",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21517292516,
+    "created_at": "2026-01-30T13:23:26Z",
+    "duration": 1579,
+    "sha": "c27f1dbd1d69633b72f325e95677f49f559e1a64",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21517292516",
+    "pr": null,
+    "display_title": "Remove fie from release",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21517292516,
+    "created_at": "2026-01-30T13:23:26Z",
+    "duration": 3474,
+    "sha": "c27f1dbd1d69633b72f325e95677f49f559e1a64",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21517292516",
+    "pr": null,
+    "display_title": "Remove fie from release",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21511599703,
+    "created_at": "2026-01-30T09:50:07Z",
+    "duration": 1361,
+    "sha": "82deea51a3cae2b890911516dc55c32d4f591b55",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21511599703",
+    "pr": null,
+    "display_title": "Fix - Prevent TypeError in mandatory field validation with array valu…",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21511599703,
+    "created_at": "2026-01-30T09:50:07Z",
+    "duration": 3123,
+    "sha": "82deea51a3cae2b890911516dc55c32d4f591b55",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21511599703",
+    "pr": null,
+    "display_title": "Fix - Prevent TypeError in mandatory field validation with array valu…",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 21499315948,
     "created_at": "2026-01-30T00:06:44Z",
     "duration": 1375,
