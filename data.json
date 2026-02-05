@@ -1,5 +1,77 @@
 [
   {
+    "id": 21693352593,
+    "created_at": "2026-02-05T00:07:51Z",
+    "duration": 1569,
+    "sha": "117527292b936112196037f6ceccfae097c1f233",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21693352593",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21693352593,
+    "created_at": "2026-02-05T00:07:51Z",
+    "duration": 3497,
+    "sha": "117527292b936112196037f6ceccfae097c1f233",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21693352593",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21674259947,
+    "created_at": "2026-02-04T13:57:49Z",
+    "duration": 1527,
+    "sha": "117527292b936112196037f6ceccfae097c1f233",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21674259947",
+    "pr": null,
+    "display_title": "test: Catch output message from ResourceChecker (#23014)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21674259947,
+    "created_at": "2026-02-04T13:57:49Z",
+    "duration": 3524,
+    "sha": "117527292b936112196037f6ceccfae097c1f233",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21674259947",
+    "pr": null,
+    "display_title": "test: Catch output message from ResourceChecker (#23014)",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21670317977,
+    "created_at": "2026-02-04T11:50:13Z",
+    "duration": 1577,
+    "sha": "20777a4c401684b36ddf4a2c1b055a7cfc44890c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21670317977",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes'",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 21670317977,
+    "created_at": "2026-02-04T11:50:13Z",
+    "duration": 3485,
+    "sha": "20777a4c401684b36ddf4a2c1b055a7cfc44890c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21670317977",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes'",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 21652787195,
     "created_at": "2026-02-04T00:05:56Z",
     "duration": 953,
