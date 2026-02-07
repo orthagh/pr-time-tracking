@@ -1,5 +1,29 @@
 [
   {
+    "id": 21750874278,
+    "created_at": "2026-02-06T12:39:23Z",
+    "duration": 1515,
+    "sha": "d2614d63aa38cffa0ac04d8bf2c87f16471a375a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21750874278",
+    "pr": null,
+    "display_title": "Use dist package for `glpi-project/rector-glpi`",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 21750874278,
+    "created_at": "2026-02-06T12:39:23Z",
+    "duration": 3670,
+    "sha": "d2614d63aa38cffa0ac04d8bf2c87f16471a375a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21750874278",
+    "pr": null,
+    "display_title": "Use dist package for `glpi-project/rector-glpi`",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 21733397548,
     "created_at": "2026-02-06T00:05:31Z",
     "duration": 1403,
