@@ -1,5 +1,77 @@
 [
   {
+    "id": 21887459915,
+    "created_at": "2026-02-11T00:11:57Z",
+    "duration": 1391,
+    "sha": "dbc387ab4abce37da2e73397f5ae0b9ac0bf93b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21887459915",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21887459915,
+    "created_at": "2026-02-11T00:11:57Z",
+    "duration": 3438,
+    "sha": "dbc387ab4abce37da2e73397f5ae0b9ac0bf93b6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21887459915",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21865362141,
+    "created_at": "2026-02-10T12:43:39Z",
+    "duration": 1376,
+    "sha": "fa63e696f63dcc0ceca637b80f1eb09d81a7cc35",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21865362141",
+    "pr": null,
+    "display_title": "Fix (MailCollector) - Preserve image dimensions from collected emails…",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21865362141,
+    "created_at": "2026-02-10T12:43:39Z",
+    "duration": 3965,
+    "sha": "fa63e696f63dcc0ceca637b80f1eb09d81a7cc35",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21865362141",
+    "pr": null,
+    "display_title": "Fix (MailCollector) - Preserve image dimensions from collected emails…",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21854003791,
+    "created_at": "2026-02-10T06:16:40Z",
+    "duration": 1425,
+    "sha": "70c7499cc7395b2d514287d78b69908d2b8f27d6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21854003791",
+    "pr": null,
+    "display_title": "fix exclusion notification + tests (#23027)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 21854003791,
+    "created_at": "2026-02-10T06:16:40Z",
+    "duration": 3532,
+    "sha": "70c7499cc7395b2d514287d78b69908d2b8f27d6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/21854003791",
+    "pr": null,
+    "display_title": "fix exclusion notification + tests (#23027)",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 21846073479,
     "created_at": "2026-02-10T00:11:21Z",
     "duration": 1309,
