@@ -1,5 +1,53 @@
 [
   {
+    "id": 22081274114,
+    "created_at": "2026-02-17T00:08:00Z",
+    "duration": 1484,
+    "sha": "cc0e6d691a864f711dd205a315e1baf2b8ad3ae0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22081274114",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22081274114,
+    "created_at": "2026-02-17T00:08:00Z",
+    "duration": 3599,
+    "sha": "cc0e6d691a864f711dd205a315e1baf2b8ad3ae0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22081274114",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22066531022,
+    "created_at": "2026-02-16T14:27:49Z",
+    "duration": 1334,
+    "sha": "73400cc344e3f4fc6f985f2f51845718f20a0490",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22066531022",
+    "pr": null,
+    "display_title": "large kb comparison modal (#23112)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22066531022,
+    "created_at": "2026-02-16T14:27:49Z",
+    "duration": 3662,
+    "sha": "73400cc344e3f4fc6f985f2f51845718f20a0490",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22066531022",
+    "pr": null,
+    "display_title": "large kb comparison modal (#23112)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 22045675407,
     "created_at": "2026-02-16T00:07:54Z",
     "duration": 3099,
