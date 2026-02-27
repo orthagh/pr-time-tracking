@@ -1,5 +1,77 @@
 [
   {
+    "id": 22466767783,
+    "created_at": "2026-02-27T00:08:53Z",
+    "duration": 885,
+    "sha": "cbc5a88c61cd0f5669d4b779d5ba4466c100efda",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22466767783",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22466767783,
+    "created_at": "2026-02-27T00:08:53Z",
+    "duration": 3739,
+    "sha": "cbc5a88c61cd0f5669d4b779d5ba4466c100efda",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22466767783",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22443345125,
+    "created_at": "2026-02-26T13:05:07Z",
+    "duration": 876,
+    "sha": "cbc5a88c61cd0f5669d4b779d5ba4466c100efda",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22443345125",
+    "pr": null,
+    "display_title": "Fix(TinyMCE): auto hide menu (#23250)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22443345125,
+    "created_at": "2026-02-26T13:05:07Z",
+    "duration": 3634,
+    "sha": "cbc5a88c61cd0f5669d4b779d5ba4466c100efda",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22443345125",
+    "pr": null,
+    "display_title": "Fix(TinyMCE): auto hide menu (#23250)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22438809776,
+    "created_at": "2026-02-26T10:49:46Z",
+    "duration": 847,
+    "sha": "10defe2f579ecd6a904e7ecce4d216cfb988f923",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22438809776",
+    "pr": null,
+    "display_title": "Fix compilation error in tests",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 22438809776,
+    "created_at": "2026-02-26T10:49:46Z",
+    "duration": 3763,
+    "sha": "10defe2f579ecd6a904e7ecce4d216cfb988f923",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22438809776",
+    "pr": null,
+    "display_title": "Fix compilation error in tests",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 22421714240,
     "created_at": "2026-02-26T00:06:55Z",
     "duration": 994,
