@@ -1,5 +1,77 @@
 [
   {
+    "id": 22695609430,
+    "created_at": "2026-03-05T00:07:42Z",
+    "duration": 995,
+    "sha": "5d5cbea6a4561b553df81a6778d531afb474e99e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22695609430",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22695609430,
+    "created_at": "2026-03-05T00:07:42Z",
+    "duration": 3220,
+    "sha": "5d5cbea6a4561b553df81a6778d531afb474e99e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22695609430",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22672971571,
+    "created_at": "2026-03-04T14:08:57Z",
+    "duration": 991,
+    "sha": "f2f9e2d545e26ae5f3aa293aefc29bede99adc60",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22672971571",
+    "pr": null,
+    "display_title": "Add KB item relation (#22989)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 22672971571,
+    "created_at": "2026-03-04T14:08:57Z",
+    "duration": 3267,
+    "sha": "f2f9e2d545e26ae5f3aa293aefc29bede99adc60",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22672971571",
+    "pr": null,
+    "display_title": "Add KB item relation (#22989)",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
+    "id": 22664702156,
+    "created_at": "2026-03-04T10:10:05Z",
+    "duration": 788,
+    "sha": "78540cabb9cd06523d65e1c569847aae12c6d0a9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22664702156",
+    "pr": null,
+    "display_title": "Fix(Form): Fix form search (#23343)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22664702156,
+    "created_at": "2026-03-04T10:10:05Z",
+    "duration": 3249,
+    "sha": "78540cabb9cd06523d65e1c569847aae12c6d0a9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22664702156",
+    "pr": null,
+    "display_title": "Fix(Form): Fix form search (#23343)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 22625335954,
     "created_at": "2026-03-03T13:33:37Z",
     "duration": 976,
