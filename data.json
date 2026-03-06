@@ -1,5 +1,77 @@
 [
   {
+    "id": 22725150212,
+    "created_at": "2026-03-05T15:31:05Z",
+    "duration": 1033,
+    "sha": "d9ac4a87bcd6d1ea05c43e620f5c510a5872c8bc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22725150212",
+    "pr": null,
+    "display_title": "doc + tests for sending approvals to managers (#23177)",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22725150212,
+    "created_at": "2026-03-05T15:31:05Z",
+    "duration": 3187,
+    "sha": "d9ac4a87bcd6d1ea05c43e620f5c510a5872c8bc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22725150212",
+    "pr": null,
+    "display_title": "doc + tests for sending approvals to managers (#23177)",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22715197026,
+    "created_at": "2026-03-05T11:11:57Z",
+    "duration": 992,
+    "sha": "9320442866fb4c73be4cb8a0074a2692c7e0f527",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22715197026",
+    "pr": null,
+    "display_title": "Fix some flaky rule tests (#23368)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22715197026,
+    "created_at": "2026-03-05T11:11:57Z",
+    "duration": 3072,
+    "sha": "9320442866fb4c73be4cb8a0074a2692c7e0f527",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22715197026",
+    "pr": null,
+    "display_title": "Fix some flaky rule tests (#23368)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22707055150,
+    "created_at": "2026-03-05T07:25:24Z",
+    "duration": 879,
+    "sha": "2c26e2c98565f38bb6596ba37c39bac0267118ad",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22707055150",
+    "pr": null,
+    "display_title": "add tooltips on progress bars to see small percentages (#23345)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22707055150,
+    "created_at": "2026-03-05T07:25:24Z",
+    "duration": 3140,
+    "sha": "2c26e2c98565f38bb6596ba37c39bac0267118ad",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22707055150",
+    "pr": null,
+    "display_title": "add tooltips on progress bars to see small percentages (#23345)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 22695609430,
     "created_at": "2026-03-05T00:07:42Z",
     "duration": 995,
