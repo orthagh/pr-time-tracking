@@ -1,5 +1,53 @@
 [
   {
+    "id": 22894495648,
+    "created_at": "2026-03-10T08:52:19Z",
+    "duration": 986,
+    "sha": "374ae4ffc30bb70a73cf7db940a225a2f299278b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22894495648",
+    "pr": null,
+    "display_title": "add pre_item_form hook call for itilsatisfaction (#23414)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22894495648,
+    "created_at": "2026-03-10T08:52:19Z",
+    "duration": 2433,
+    "sha": "374ae4ffc30bb70a73cf7db940a225a2f299278b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22894495648",
+    "pr": null,
+    "display_title": "add pre_item_form hook call for itilsatisfaction (#23414)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22893540197,
+    "created_at": "2026-03-10T08:24:13Z",
+    "duration": 771,
+    "sha": "684440c84bcfd824fa85452a0f620045a0c5baba",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22893540197",
+    "pr": null,
+    "display_title": "use correct route parameter name in getRuleActions() (#23416)",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 22893540197,
+    "created_at": "2026-03-10T08:24:13Z",
+    "duration": 2406,
+    "sha": "684440c84bcfd824fa85452a0f620045a0c5baba",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/22893540197",
+    "pr": null,
+    "display_title": "use correct route parameter name in getRuleActions() (#23416)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 22852004225,
     "created_at": "2026-03-09T11:48:20Z",
     "duration": 907,
