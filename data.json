@@ -1,5 +1,53 @@
 [
   {
+    "id": 23599591807,
+    "created_at": "2026-03-26T14:24:56Z",
+    "duration": 872,
+    "sha": "9a51d1d00e330153ee214d07d404ccfebf5ff4b0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23599591807",
+    "pr": null,
+    "display_title": "Collapse large CTRF reports",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23599591807,
+    "created_at": "2026-03-26T14:24:56Z",
+    "duration": 2314,
+    "sha": "9a51d1d00e330153ee214d07d404ccfebf5ff4b0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23599591807",
+    "pr": null,
+    "display_title": "Collapse large CTRF reports",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23587694088,
+    "created_at": "2026-03-26T09:44:28Z",
+    "duration": 888,
+    "sha": "5d28f04b17454618904bbbfde22a44afd37ca0fc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23587694088",
+    "pr": null,
+    "display_title": "Add \"IA only\" label configuration to close issues",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23587694088,
+    "created_at": "2026-03-26T09:44:28Z",
+    "duration": 2436,
+    "sha": "5d28f04b17454618904bbbfde22a44afd37ca0fc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23587694088",
+    "pr": null,
+    "display_title": "Add \"IA only\" label configuration to close issues",
+    "job_name": "Playwright tests, E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 23570712179,
     "created_at": "2026-03-26T00:10:31Z",
     "duration": 843,
