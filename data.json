@@ -1,5 +1,53 @@
 [
   {
+    "id": 23966879264,
+    "created_at": "2026-04-04T00:09:04Z",
+    "duration": 706,
+    "sha": "6d261dcc20058e6c9ec81b61e95e74997768b0d4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23966879264",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23966879264,
+    "created_at": "2026-04-04T00:09:04Z",
+    "duration": 2256,
+    "sha": "6d261dcc20058e6c9ec81b61e95e74997768b0d4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23966879264",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23949742224,
+    "created_at": "2026-04-03T14:30:03Z",
+    "duration": 945,
+    "sha": "6d261dcc20058e6c9ec81b61e95e74997768b0d4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23949742224",
+    "pr": null,
+    "display_title": "Fix - Only propagate followups/tasks/documents to parent ticket when …",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 23949742224,
+    "created_at": "2026-04-03T14:30:03Z",
+    "duration": 2328,
+    "sha": "6d261dcc20058e6c9ec81b61e95e74997768b0d4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/23949742224",
+    "pr": null,
+    "display_title": "Fix - Only propagate followups/tasks/documents to parent ticket when …",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 23927853123,
     "created_at": "2026-04-03T00:11:06Z",
     "duration": 932,
