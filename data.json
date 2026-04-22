@@ -1,5 +1,29 @@
 [
   {
+    "id": 24776586531,
+    "created_at": "2026-04-22T11:48:30Z",
+    "duration": 998,
+    "sha": "adeec35979a8b2c147987797bb71b02d9f52e1ae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/24776586531",
+    "pr": null,
+    "display_title": "Remove name header for KB articles (#23983)",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 24776586531,
+    "created_at": "2026-04-22T11:48:30Z",
+    "duration": 2436,
+    "sha": "adeec35979a8b2c147987797bb71b02d9f52e1ae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/24776586531",
+    "pr": null,
+    "display_title": "Remove name header for KB articles (#23983)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 24753183322,
     "created_at": "2026-04-22T00:12:55Z",
     "duration": 862,

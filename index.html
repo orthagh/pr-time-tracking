@@ -7,41 +7,59 @@
     <link rel="icon" type="image/png" href="/pr-time-tracking/assets/favicon-Btl4FEum.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
-  <script type="module" crossorigin src="/pr-time-tracking/assets/index-1gnS1Bhb.js"></script>
-  <link rel="stylesheet" crossorigin href="/pr-time-tracking/assets/index-51ukyJco.css">
+  <script type="module" crossorigin src="/pr-time-tracking/assets/index-C56AoPbt.js"></script>
+  <link rel="stylesheet" crossorigin href="/pr-time-tracking/assets/index-54frxvRy.css">
 </head>
 <body>
-    <div class="background-blobs">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-        <div class="blob blob-3"></div>
-    </div>
-
-    <main class="container">
-        <header class="hero">
-            <h1>PR Execution Time Tracker</h1>
-            <p class="subtitle">
-                GLPI CI Performance Tracker (main & 11.0/bugfixes)
-                <a href="https://github.com/glpi-project/glpi/actions/workflows/ci.yml" target="_blank" class="actions-link" title="View GLPI GitHub Actions">
-                    <svg class="icon" viewBox="0 0 16 16" width="14" height="14"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
-                    <span>See GLPI Actions ↗</span>
+    <main class="app">
+        <!-- Top header / crumbs -->
+        <header class="topbar">
+            <div class="crumbs">
+                <span class="crumb-dot"></span>
+                <span class="crumb">glpi-project</span>
+                <span class="crumb-sep">/</span>
+                <span class="crumb">ci</span>
+                <span class="crumb-sep">/</span>
+                <span class="crumb crumb-active">pr execution time</span>
+            </div>
+            <div class="topbar-right">
+                <a href="https://github.com/glpi-project/glpi/actions/workflows/ci.yml"
+                   target="_blank" rel="noreferrer" class="gh-link" title="View GLPI GitHub Actions">
+                    <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" aria-hidden="true">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    GLPI Actions
                 </a>
-            </p>
-            <div class="controls-container">
-                <div class="control-group">
-                    <label for="jobCategory">Tracking Job:</label>
-                    <select id="jobCategory" class="job-select">
+                <span class="pulse" aria-hidden="true"></span>
+                <span class="pulse-label">live</span>
+            </div>
+        </header>
+
+        <!-- Title row with controls -->
+        <section class="title-row">
+            <div>
+                <div class="eyebrow">CI PERFORMANCE</div>
+                <h1 class="title">PR Execution Time</h1>
+                <div class="subtitle">
+                    Tracking <span class="ink">main</span> and
+                    <span class="ink">11.0/bugfixes</span> · successful workflow runs
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control">
+                    <span class="control-label">job</span>
+                    <select id="jobCategory">
                         <option value="PHP Tests">PHP Tests</option>
                         <option value="E2E Tests">E2E Tests</option>
                     </select>
                 </div>
-                <div class="control-group">
-                    <label for="timePeriod">Period:</label>
-                    <select id="timePeriod" class="job-select">
+                <div class="control">
+                    <span class="control-label">period</span>
+                    <select id="timePeriod">
                         <option value="week">Last Week</option>
                         <option value="month">Last Month</option>
                         <option value="3months">Last 3 Months</option>
@@ -51,36 +69,86 @@
                     </select>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <section class="stats-grid">
-            <div class="stat-card" data-tooltip="The average execution time for successful jobs in the selected period.">
-                <span class="label">Average Duration <span class="info-icon">i</span></span>
-                <span class="value" id="stat-avg">--</span>
-                <span class="unit">min</span>
+        <!-- Stat strip -->
+        <section class="strip">
+            <div class="stat" data-tooltip="The mean execution time for successful runs in the selected period.">
+                <div class="stat-label">AVG DURATION</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-avg">—</span>
+                    <span class="stat-unit">min</span>
+                </div>
             </div>
-            <div class="stat-card" data-tooltip="95th Percentile: 95% of runs were faster than this value. Useful for identifying worst-case performance.">
-                <span class="label">P95 Duration <span class="info-icon">i</span></span>
-                <span class="value" id="stat-p95">--</span>
-                <span class="unit">min</span>
+            <div class="stat" data-tooltip="Median (50th percentile): half of runs were faster, half slower.">
+                <div class="stat-label">P50 MEDIAN</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-p50">—</span>
+                    <span class="stat-unit">min</span>
+                </div>
             </div>
-            <div class="stat-card" data-tooltip="Total number of successful runs processed for the selected period.">
-                <span class="label">Total Runs <span class="info-icon">i</span></span>
-                <span class="value" id="stat-total">--</span>
-                <span class="unit">records</span>
+            <div class="stat stat--accent" data-tooltip="95th percentile: 95% of runs were faster than this. Good worst-case signal.">
+                <div class="stat-label">P95</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-p95">—</span>
+                    <span class="stat-unit">min</span>
+                </div>
+            </div>
+            <div class="stat" data-tooltip="Slowest single run observed in the selected period.">
+                <div class="stat-label">MAX</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-max">—</span>
+                    <span class="stat-unit">min</span>
+                </div>
+            </div>
+            <div class="stat" data-tooltip="Percentage change between the first 20% and last 20% of runs in the period.">
+                <div class="stat-label">TREND</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-trend">—</span>
+                    <span class="stat-unit">%</span>
+                </div>
+            </div>
+            <div class="stat" data-tooltip="Total number of successful runs processed for the selected period.">
+                <div class="stat-label">SAMPLES</div>
+                <div class="stat-row">
+                    <span class="stat-value" id="stat-total">—</span>
+                    <span class="stat-unit">runs</span>
+                </div>
             </div>
         </section>
 
-        <section class="chart-container">
-            <h2 class="chart-title" data-tooltip="Click on data points to view associated commits/runs on GitHub.">Execution Time History <span class="info-icon">i</span></h2>
-            <button id="resetZoom" class="btn-reset">Reset Zoom</button>
-            <canvas id="timeChart"></canvas>
+        <!-- Main chart panel -->
+        <section class="panel">
+            <div class="panel-head">
+                <span class="panel-title">EXECUTION TIME HISTORY</span>
+                <span class="panel-meta" id="panel-range"></span>
+                <span class="legend-dot" aria-hidden="true"></span>
+                <span class="legend-text">duration (min)</span>
+                <button id="resetZoom" class="btn-reset" type="button">Reset Zoom</button>
+            </div>
+            <div class="panel-body chart-wrap">
+                <canvas id="timeChart"></canvas>
+            </div>
         </section>
 
-        <section class="chart-container small">
-            <h2 class="chart-title">Monthly Average Duration</h2>
-            <canvas id="monthlyChart"></canvas>
+        <!-- Monthly panel -->
+        <section class="panel">
+            <div class="panel-head">
+                <span class="panel-title">MONTHLY AVERAGE</span>
+                <span class="panel-meta">rolling mean per calendar month</span>
+            </div>
+            <div class="panel-body chart-wrap chart-wrap--sm">
+                <canvas id="monthlyChart"></canvas>
+            </div>
         </section>
+
+        <footer class="footer">
+            <span>Data source: GitHub Actions API</span>
+            <span class="foot-sep">·</span>
+            <span>Click a point to open the run</span>
+            <span class="foot-sep">·</span>
+            <span id="foot-sync"></span>
+        </footer>
     </main>
 
 </body>
