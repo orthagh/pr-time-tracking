@@ -1,5 +1,77 @@
 [
   {
+    "id": 26096605208,
+    "created_at": "2026-05-19T12:17:36Z",
+    "duration": 943,
+    "sha": "e163cee19bde1c194667b620c90083fcf08d43f0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26096605208",
+    "pr": null,
+    "display_title": "fix save btn value",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26096605208,
+    "created_at": "2026-05-19T12:17:36Z",
+    "duration": 2355,
+    "sha": "e163cee19bde1c194667b620c90083fcf08d43f0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26096605208",
+    "pr": null,
+    "display_title": "fix save btn value",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26088967077,
+    "created_at": "2026-05-19T09:37:00Z",
+    "duration": 999,
+    "sha": "00dc6b3f47577e3c047da23f2921625f3c0b9b1d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26088967077",
+    "pr": null,
+    "display_title": "Prevent generic network asset to handle agents",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26088967077,
+    "created_at": "2026-05-19T09:37:00Z",
+    "duration": 2245,
+    "sha": "00dc6b3f47577e3c047da23f2921625f3c0b9b1d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26088967077",
+    "pr": null,
+    "display_title": "Prevent generic network asset to handle agents",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26085517031,
+    "created_at": "2026-05-19T08:26:37Z",
+    "duration": 779,
+    "sha": "e8566cd2f6ae74a745731dfe8ecafb1e92dd9b88",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26085517031",
+    "pr": null,
+    "display_title": "fix base path",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26085517031,
+    "created_at": "2026-05-19T08:26:37Z",
+    "duration": 2226,
+    "sha": "e8566cd2f6ae74a745731dfe8ecafb1e92dd9b88",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26085517031",
+    "pr": null,
+    "display_title": "fix base path",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 26068468101,
     "created_at": "2026-05-19T00:25:23Z",
     "duration": 863,
