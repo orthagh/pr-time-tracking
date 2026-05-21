@@ -1,5 +1,77 @@
 [
   {
+    "id": 26206858472,
+    "created_at": "2026-05-21T05:13:26Z",
+    "duration": 894,
+    "sha": "278004b35a53d04cdfc938c9f4b4665346a0fbe4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26206858472",
+    "pr": null,
+    "display_title": "fix(forms): use completename for TreeDropdown objects visibility cond…",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26206858472,
+    "created_at": "2026-05-21T05:13:26Z",
+    "duration": 2221,
+    "sha": "278004b35a53d04cdfc938c9f4b4665346a0fbe4",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26206858472",
+    "pr": null,
+    "display_title": "fix(forms): use completename for TreeDropdown objects visibility cond…",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26197936082,
+    "created_at": "2026-05-21T00:26:15Z",
+    "duration": 832,
+    "sha": "8394bc0a3d979d8345fef183db3c55b8275ef638",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26197936082",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26197936082,
+    "created_at": "2026-05-21T00:26:15Z",
+    "duration": 2231,
+    "sha": "8394bc0a3d979d8345fef183db3c55b8275ef638",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26197936082",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26165492589,
+    "created_at": "2026-05-20T13:25:01Z",
+    "duration": 891,
+    "sha": "83cdb4ad2b1c428452fc6be9a3bc52ac7a1d5bdd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26165492589",
+    "pr": null,
+    "display_title": "fix undefined twig variable",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 26165492589,
+    "created_at": "2026-05-20T13:25:01Z",
+    "duration": 2515,
+    "sha": "83cdb4ad2b1c428452fc6be9a3bc52ac7a1d5bdd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26165492589",
+    "pr": null,
+    "display_title": "fix undefined twig variable",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 26096605208,
     "created_at": "2026-05-19T12:17:36Z",
     "duration": 943,
