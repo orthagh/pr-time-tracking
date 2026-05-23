@@ -1,5 +1,29 @@
 [
   {
+    "id": 26271102320,
+    "created_at": "2026-05-22T05:55:59Z",
+    "duration": 907,
+    "sha": "d54b073d61a694b31893e5c2c8ecf4980b7c22fd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26271102320",
+    "pr": null,
+    "display_title": "Bump twig/markdown-extra from 3.21.0 to 3.26.0",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26271102320,
+    "created_at": "2026-05-22T05:55:59Z",
+    "duration": 2074,
+    "sha": "d54b073d61a694b31893e5c2c8ecf4980b7c22fd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26271102320",
+    "pr": null,
+    "display_title": "Bump twig/markdown-extra from 3.21.0 to 3.26.0",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 26206858472,
     "created_at": "2026-05-21T05:13:26Z",
     "duration": 894,
