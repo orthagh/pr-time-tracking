@@ -1,5 +1,53 @@
 [
   {
+    "id": 26546788822,
+    "created_at": "2026-05-28T00:23:07Z",
+    "duration": 752,
+    "sha": "aa4694e29c014ede01b7afdd44e0e5e508a0b3ed",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26546788822",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26546788822,
+    "created_at": "2026-05-28T00:23:07Z",
+    "duration": 2207,
+    "sha": "aa4694e29c014ede01b7afdd44e0e5e508a0b3ed",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26546788822",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26512551578,
+    "created_at": "2026-05-27T12:59:45Z",
+    "duration": 1096,
+    "sha": "f3950bbfbb5d33ecdcfd36f43236da8c0ed83d5a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26512551578",
+    "pr": null,
+    "display_title": "Remove unused idor twig variables (#24333)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 26512551578,
+    "created_at": "2026-05-27T12:59:45Z",
+    "duration": 2556,
+    "sha": "f3950bbfbb5d33ecdcfd36f43236da8c0ed83d5a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26512551578",
+    "pr": null,
+    "display_title": "Remove unused idor twig variables (#24333)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 26492977459,
     "created_at": "2026-05-27T05:36:24Z",
     "duration": 826,
