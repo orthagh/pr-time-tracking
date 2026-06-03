@@ -1,5 +1,53 @@
 [
   {
+    "id": 26866990887,
+    "created_at": "2026-06-03T06:08:05Z",
+    "duration": 982,
+    "sha": "ab6964ba390186feded8ce5db9024a28b4d403b9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26866990887",
+    "pr": null,
+    "display_title": "build(deps): bump guzzlehttp/guzzle in the guzzlehttp group (#24447)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26866990887,
+    "created_at": "2026-06-03T06:08:05Z",
+    "duration": 2257,
+    "sha": "ab6964ba390186feded8ce5db9024a28b4d403b9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26866990887",
+    "pr": null,
+    "display_title": "build(deps): bump guzzlehttp/guzzle in the guzzlehttp group (#24447)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26856451810,
+    "created_at": "2026-06-03T00:35:31Z",
+    "duration": 846,
+    "sha": "cd74f1d6dbb1f7f20260e9d9a495ddc0fea11d7c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26856451810",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 26856451810,
+    "created_at": "2026-06-03T00:35:31Z",
+    "duration": 2200,
+    "sha": "cd74f1d6dbb1f7f20260e9d9a495ddc0fea11d7c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/26856451810",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 26790719424,
     "created_at": "2026-06-02T00:30:49Z",
     "duration": 944,
