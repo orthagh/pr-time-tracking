@@ -1,5 +1,29 @@
 [
   {
+    "id": 27888461493,
+    "created_at": "2026-06-21T00:29:16Z",
+    "duration": 876,
+    "sha": "16c62b59487360abf34c2905ea2606665a211667",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/27888461493",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:11.8",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 27888461493,
+    "created_at": "2026-06-21T00:29:16Z",
+    "duration": 2278,
+    "sha": "16c62b59487360abf34c2905ea2606665a211667",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/27888461493",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 27798045302,
     "created_at": "2026-06-19T00:35:22Z",
     "duration": 716,
