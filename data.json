@@ -1,5 +1,77 @@
 [
   {
+    "id": 28689151312,
+    "created_at": "2026-07-04T00:23:00Z",
+    "duration": 994,
+    "sha": "38c608d43e526e0c22e37860911b551aa85e36c0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28689151312",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 28689151312,
+    "created_at": "2026-07-04T00:23:00Z",
+    "duration": 2290,
+    "sha": "38c608d43e526e0c22e37860911b551aa85e36c0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28689151312",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 28648719835,
+    "created_at": "2026-07-03T08:34:09Z",
+    "duration": 864,
+    "sha": "38c608d43e526e0c22e37860911b551aa85e36c0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28648719835",
+    "pr": null,
+    "display_title": "Fix annoying tickets scroll (#24769)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 28648719835,
+    "created_at": "2026-07-03T08:34:09Z",
+    "duration": 2240,
+    "sha": "38c608d43e526e0c22e37860911b551aa85e36c0",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28648719835",
+    "pr": null,
+    "display_title": "Fix annoying tickets scroll (#24769)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 28644224108,
+    "created_at": "2026-07-03T07:01:17Z",
+    "duration": 896,
+    "sha": "15fd95e8f1fc624e5dfa08efcbdbdcee1d609554",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28644224108",
+    "pr": null,
+    "display_title": "Fix Home/End keys not scrolling the timeline in ITIL objects (#24756)",
+    "job_name": "Test on PHP 8.5 using mysql:8.4",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 28644224108,
+    "created_at": "2026-07-03T07:01:17Z",
+    "duration": 2300,
+    "sha": "15fd95e8f1fc624e5dfa08efcbdbdcee1d609554",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/28644224108",
+    "pr": null,
+    "display_title": "Fix Home/End keys not scrolling the timeline in ITIL objects (#24756)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 28630121740,
     "created_at": "2026-07-03T00:23:48Z",
     "duration": 919,
