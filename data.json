@@ -1,5 +1,29 @@
 [
   {
+    "id": 30689535007,
+    "created_at": "2026-08-01T07:20:06Z",
+    "duration": 857,
+    "sha": "82760b21f0066ca25580bbda5aa015cc11c87c2b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30689535007",
+    "pr": null,
+    "display_title": "Add 'right' key to user table configuration",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 30689535007,
+    "created_at": "2026-08-01T07:20:06Z",
+    "duration": 2256,
+    "sha": "82760b21f0066ca25580bbda5aa015cc11c87c2b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30689535007",
+    "pr": null,
+    "display_title": "Add 'right' key to user table configuration",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 30675269455,
     "created_at": "2026-08-01T00:19:59Z",
     "duration": 645,
