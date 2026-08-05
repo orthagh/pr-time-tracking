@@ -1,5 +1,53 @@
 [
   {
+    "id": 30906000387,
+    "created_at": "2026-08-04T11:43:32Z",
+    "duration": 746,
+    "sha": "52bf42fc999fd4ab307fd951761d166cbcb74427",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30906000387",
+    "pr": null,
+    "display_title": "Fix entities where problem and change are created from asset form (#2…",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 30906000387,
+    "created_at": "2026-08-04T11:43:32Z",
+    "duration": 2217,
+    "sha": "52bf42fc999fd4ab307fd951761d166cbcb74427",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30906000387",
+    "pr": null,
+    "display_title": "Fix entities where problem and change are created from asset form (#2…",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 30896284916,
+    "created_at": "2026-08-04T09:25:54Z",
+    "duration": 1086,
+    "sha": "45fdf71a8fbed30c8f519657bc43351010cc7637",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30896284916",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 30896284916,
+    "created_at": "2026-08-04T09:25:54Z",
+    "duration": 2382,
+    "sha": "45fdf71a8fbed30c8f519657bc43351010cc7637",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/30896284916",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
     "id": 30821728077,
     "created_at": "2026-08-03T14:14:13Z",
     "duration": 2116,
