@@ -1,5 +1,53 @@
 [
   {
+    "id": 31229255357,
+    "created_at": "2026-08-08T00:08:29Z",
+    "duration": 1005,
+    "sha": "343a1035af3b361f9163a476bec5e66d1015b220",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/31229255357",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 31229255357,
+    "created_at": "2026-08-08T00:08:29Z",
+    "duration": 2322,
+    "sha": "343a1035af3b361f9163a476bec5e66d1015b220",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/31229255357",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 31170286561,
+    "created_at": "2026-08-07T10:29:37Z",
+    "duration": 872,
+    "sha": "080d23644951544c25c33e1e254515b607255ab9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/31170286561",
+    "pr": null,
+    "display_title": "Fix: 'If' notification conditions fail to match with special chars",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 31170286561,
+    "created_at": "2026-08-07T10:29:37Z",
+    "duration": 2274,
+    "sha": "080d23644951544c25c33e1e254515b607255ab9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/31170286561",
+    "pr": null,
+    "display_title": "Fix: 'If' notification conditions fail to match with special chars",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 31136929434,
     "created_at": "2026-08-07T01:06:22Z",
     "duration": 1027,
