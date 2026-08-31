@@ -1,5 +1,53 @@
 [
   {
+    "id": 33367063334,
+    "created_at": "2026-08-31T07:08:27Z",
+    "duration": 931,
+    "sha": "9308449f4ccb2c3464c1e2ef46e758bf24b42cb1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33367063334",
+    "pr": null,
+    "display_title": "remove vitest config from releases",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 33367063334,
+    "created_at": "2026-08-31T07:08:27Z",
+    "duration": 2844,
+    "sha": "9308449f4ccb2c3464c1e2ef46e758bf24b42cb1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33367063334",
+    "pr": null,
+    "display_title": "remove vitest config from releases",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
+    "id": 33366024163,
+    "created_at": "2026-08-31T06:53:36Z",
+    "duration": 852,
+    "sha": "6dc31894ce85d91d34a149f74e95a76a8c6eff00",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33366024163",
+    "pr": null,
+    "display_title": "Fix \"tester\" plugin fixture being loaded too late (#25301)",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 33366024163,
+    "created_at": "2026-08-31T06:53:36Z",
+    "duration": 2121,
+    "sha": "6dc31894ce85d91d34a149f74e95a76a8c6eff00",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33366024163",
+    "pr": null,
+    "display_title": "Fix \"tester\" plugin fixture being loaded too late (#25301)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 33222559978,
     "created_at": "2026-08-29T00:07:02Z",
     "duration": 981,
