@@ -1,5 +1,53 @@
 [
   {
+    "id": 34087904323,
+    "created_at": "2026-09-07T05:43:37Z",
+    "duration": 923,
+    "sha": "132f797cf63fd7db8e6f5696337ba418b5012421",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34087904323",
+    "pr": null,
+    "display_title": "fix(ui): replace non-existent 'ti-external-link-alt' with 'ti-externa…",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34087904323,
+    "created_at": "2026-09-07T05:43:37Z",
+    "duration": 1802,
+    "sha": "132f797cf63fd7db8e6f5696337ba418b5012421",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34087904323",
+    "pr": null,
+    "display_title": "fix(ui): replace non-existent 'ti-external-link-alt' with 'ti-externa…",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34068817047,
+    "created_at": "2026-09-07T00:07:58Z",
+    "duration": 853,
+    "sha": "953d8ad3c9d42a50de3d13c07e302790c7a69ea1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34068817047",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34068817047,
+    "created_at": "2026-09-07T00:07:58Z",
+    "duration": 1898,
+    "sha": "953d8ad3c9d42a50de3d13c07e302790c7a69ea1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34068817047",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 34000483400,
     "created_at": "2026-09-06T00:08:00Z",
     "duration": 682,
