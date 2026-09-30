@@ -16,7 +16,7 @@ async function run() {
     const owner = "glpi-project";
     const repo = "glpi";
     const workflow_id = 22080;
-    const branches = ["main", "11.0/bugfixes"];
+    const branches = ["main", "11.0/bugfixes", "12.0/bugfixes"];
     const jobCategories = {
         "PHP Tests": { prefixes: ["Test on PHP"], sum: false },
         "E2E Tests": { prefixes: ["E2E", "Playwright"], sum: true }

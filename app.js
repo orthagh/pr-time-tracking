@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     function updateDashboard() {
         const selectedCategory = document.getElementById('jobCategory').value;
         const selectedPeriod = document.getElementById('timePeriod').value;
+        const selectedBranch = document.getElementById('branch').value;
 
         const now = moment();
         let startDate;
@@ -57,6 +58,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const data = allData
             .filter(d => d.job_category === selectedCategory && moment(d.created_at).isAfter(startDate))
+            .filter(d => selectedBranch === 'all' || d.branch === selectedBranch)
             .sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
 
         const durations = data.map(d => d.duration / 60);
@@ -308,6 +310,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         jobSelector.addEventListener('change', updateDashboard);
         periodSelector.addEventListener('change', updateDashboard);
+        document.getElementById('branch').addEventListener('change', updateDashboard);
 
         document.getElementById('resetZoom').addEventListener('click', () => {
             if (historyChart) {
