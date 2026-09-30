@@ -1,5 +1,317 @@
 [
   {
+    "id": 36707769638,
+    "created_at": "2026-09-30T11:18:54Z",
+    "duration": 1055,
+    "sha": "07852f20d39a134c48f429eb842240142cce5190",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36707769638",
+    "pr": null,
+    "display_title": "Feat: add hover popover with link to group fields (#25635)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36707769638,
+    "created_at": "2026-09-30T11:18:54Z",
+    "duration": 2670,
+    "sha": "07852f20d39a134c48f429eb842240142cce5190",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36707769638",
+    "pr": null,
+    "display_title": "Feat: add hover popover with link to group fields (#25635)",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36698075341,
+    "created_at": "2026-09-30T09:44:56Z",
+    "duration": 743,
+    "sha": "0d77ad4146a79521981fe46e59cb8d3242decbab",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36698075341",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36698075341,
+    "created_at": "2026-09-30T09:44:56Z",
+    "duration": 1728,
+    "sha": "0d77ad4146a79521981fe46e59cb8d3242decbab",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36698075341",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36691826800,
+    "created_at": "2026-09-30T08:46:38Z",
+    "duration": 1156,
+    "sha": "18a8496c40dd39f5a646825514593e8fde5a9cbe",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36691826800",
+    "pr": null,
+    "display_title": "Merge branch '12.0/bugfixes'",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "main"
+  },
+  {
+    "id": 36691826800,
+    "created_at": "2026-09-30T08:46:38Z",
+    "duration": 2515,
+    "sha": "18a8496c40dd39f5a646825514593e8fde5a9cbe",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36691826800",
+    "pr": null,
+    "display_title": "Merge branch '12.0/bugfixes'",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "main"
+  },
+  {
+    "id": 36691736632,
+    "created_at": "2026-09-30T08:45:45Z",
+    "duration": 989,
+    "sha": "9597b58e20440d97f581a01dd68cfd7e137ff973",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36691736632",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36691736632,
+    "created_at": "2026-09-30T08:45:45Z",
+    "duration": 2655,
+    "sha": "9597b58e20440d97f581a01dd68cfd7e137ff973",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36691736632",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36688025419,
+    "created_at": "2026-09-30T08:10:02Z",
+    "duration": 679,
+    "sha": "2d24828bd7a3dc0742d2004f9a2601e1a62c0d92",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36688025419",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36688025419,
+    "created_at": "2026-09-30T08:10:02Z",
+    "duration": 2053,
+    "sha": "2d24828bd7a3dc0742d2004f9a2601e1a62c0d92",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36688025419",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36685677379,
+    "created_at": "2026-09-30T07:46:46Z",
+    "duration": 670,
+    "sha": "b2c73e99e4b7c05bc2120bff47a06e330ada92f7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36685677379",
+    "pr": null,
+    "display_title": "Update locales",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36685677379,
+    "created_at": "2026-09-30T07:46:46Z",
+    "duration": 2439,
+    "sha": "b2c73e99e4b7c05bc2120bff47a06e330ada92f7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36685677379",
+    "pr": null,
+    "display_title": "Update locales",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36682814456,
+    "created_at": "2026-09-30T07:17:03Z",
+    "duration": 784,
+    "sha": "615c0429eb877dbc195584cc462fd589df06ad01",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36682814456",
+    "pr": null,
+    "display_title": "Update loacales",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36682814456,
+    "created_at": "2026-09-30T07:17:03Z",
+    "duration": 2005,
+    "sha": "615c0429eb877dbc195584cc462fd589df06ad01",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36682814456",
+    "pr": null,
+    "display_title": "Update loacales",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36680891966,
+    "created_at": "2026-09-30T06:56:20Z",
+    "duration": 919,
+    "sha": "01609aba520cc328ec864c4206f0907b1740c50a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36680891966",
+    "pr": null,
+    "display_title": "KB : Remove the old knowledge base list and search pages (#25585)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36680891966,
+    "created_at": "2026-09-30T06:56:20Z",
+    "duration": 2197,
+    "sha": "01609aba520cc328ec864c4206f0907b1740c50a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36680891966",
+    "pr": null,
+    "display_title": "KB : Remove the old knowledge base list and search pages (#25585)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36679942976,
+    "created_at": "2026-09-30T06:45:51Z",
+    "duration": 881,
+    "sha": "41286df6025eb522b789f852bf6a08674458b0ba",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36679942976",
+    "pr": null,
+    "display_title": "Fix duplicated search criteria in Knowledge Base tree view (#24090) (…",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36679942976,
+    "created_at": "2026-09-30T06:45:51Z",
+    "duration": 1849,
+    "sha": "41286df6025eb522b789f852bf6a08674458b0ba",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36679942976",
+    "pr": null,
+    "display_title": "Fix duplicated search criteria in Knowledge Base tree view (#24090) (…",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36670626922,
+    "created_at": "2026-09-30T04:50:04Z",
+    "duration": 737,
+    "sha": "79b55f19eb2cd47b2ab566862789e7125fda81ca",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36670626922",
+    "pr": null,
+    "display_title": "Do not use a refused solution in ITIL resolution notifications",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36670626922,
+    "created_at": "2026-09-30T04:50:04Z",
+    "duration": 1738,
+    "sha": "79b55f19eb2cd47b2ab566862789e7125fda81ca",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36670626922",
+    "pr": null,
+    "display_title": "Do not use a refused solution in ITIL resolution notifications",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36648776045,
+    "created_at": "2026-09-30T00:07:58Z",
+    "duration": 870,
+    "sha": "efaf52611130b9a67150428fd7afc4d2b5995aae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36648776045",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36648776045,
+    "created_at": "2026-09-30T00:07:58Z",
+    "duration": 1758,
+    "sha": "efaf52611130b9a67150428fd7afc4d2b5995aae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36648776045",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36587654786,
+    "created_at": "2026-09-29T15:06:30Z",
+    "duration": 991,
+    "sha": "aa416d0248693162a8f0677e3cfc5238d79a5899",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36587654786",
+    "pr": null,
+    "display_title": "Regenerate PHPStan baseline",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36587654786,
+    "created_at": "2026-09-29T15:06:30Z",
+    "duration": 2698,
+    "sha": "aa416d0248693162a8f0677e3cfc5238d79a5899",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36587654786",
+    "pr": null,
+    "display_title": "Regenerate PHPStan baseline",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36587637236,
+    "created_at": "2026-09-29T15:06:22Z",
+    "duration": 570,
+    "sha": "efaf52611130b9a67150428fd7afc4d2b5995aae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36587637236",
+    "pr": null,
+    "display_title": "Inventory: software matching can silently attach new versions/install…",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36587637236,
+    "created_at": "2026-09-29T15:06:22Z",
+    "duration": 1963,
+    "sha": "efaf52611130b9a67150428fd7afc4d2b5995aae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36587637236",
+    "pr": null,
+    "display_title": "Inventory: software matching can silently attach new versions/install…",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 36585084134,
     "created_at": "2026-09-29T14:45:42Z",
     "duration": 645,
@@ -22,6 +334,126 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "main"
+  },
+  {
+    "id": 36578300053,
+    "created_at": "2026-09-29T13:52:05Z",
+    "duration": 1100,
+    "sha": "c6cdce0b6efbfb7e8de42a9cb7eb8b64a25984c9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36578300053",
+    "pr": null,
+    "display_title": "Remove the favorite option from the knowledge base Home article (#25610)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36578300053,
+    "created_at": "2026-09-29T13:52:05Z",
+    "duration": 2481,
+    "sha": "c6cdce0b6efbfb7e8de42a9cb7eb8b64a25984c9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36578300053",
+    "pr": null,
+    "display_title": "Remove the favorite option from the knowledge base Home article (#25610)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36577542294,
+    "created_at": "2026-09-29T13:46:04Z",
+    "duration": 721,
+    "sha": "97f4a2066343b7bbcf0a728e54fb49e2ca020e83",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36577542294",
+    "pr": null,
+    "display_title": "Fix cache issue when enabling/disabling plugins",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36577542294,
+    "created_at": "2026-09-29T13:46:04Z",
+    "duration": 1970,
+    "sha": "97f4a2066343b7bbcf0a728e54fb49e2ca020e83",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36577542294",
+    "pr": null,
+    "display_title": "Fix cache issue when enabling/disabling plugins",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36574903899,
+    "created_at": "2026-09-29T13:24:50Z",
+    "duration": 1174,
+    "sha": "f42f4d365947ab20e61952a33c5d79b9706a36ed",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36574903899",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36574903899,
+    "created_at": "2026-09-29T13:24:50Z",
+    "duration": 2202,
+    "sha": "f42f4d365947ab20e61952a33c5d79b9706a36ed",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36574903899",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36571142286,
+    "created_at": "2026-09-29T12:53:12Z",
+    "duration": 925,
+    "sha": "dd1531363fa8020dedb6ab944954605e982654de",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36571142286",
+    "pr": null,
+    "display_title": "Add GLPI 11.0.10 empty file (#25666)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36571142286,
+    "created_at": "2026-09-29T12:53:12Z",
+    "duration": 1953,
+    "sha": "dd1531363fa8020dedb6ab944954605e982654de",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36571142286",
+    "pr": null,
+    "display_title": "Add GLPI 11.0.10 empty file (#25666)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36567222201,
+    "created_at": "2026-09-29T12:18:19Z",
+    "duration": 535,
+    "sha": "8c4962563fdba49cde8906627131ddd9961b90b7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36567222201",
+    "pr": null,
+    "display_title": "Merge branch '10.0/bugfixes' into 11.0/bugfixes",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36567222201,
+    "created_at": "2026-09-29T12:18:19Z",
+    "duration": 2031,
+    "sha": "8c4962563fdba49cde8906627131ddd9961b90b7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36567222201",
+    "pr": null,
+    "display_title": "Merge branch '10.0/bugfixes' into 11.0/bugfixes",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
   },
   {
     "id": 36532235417,
@@ -120,6 +552,78 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 36410871073,
+    "created_at": "2026-09-28T10:38:06Z",
+    "duration": 999,
+    "sha": "3fa002fd4a829ea208031a26de0f4ba2a2078e8e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36410871073",
+    "pr": null,
+    "display_title": "Upgrade `monaco-editor` (#25650)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36410871073,
+    "created_at": "2026-09-28T10:38:06Z",
+    "duration": 2458,
+    "sha": "3fa002fd4a829ea208031a26de0f4ba2a2078e8e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36410871073",
+    "pr": null,
+    "display_title": "Upgrade `monaco-editor` (#25650)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36407441058,
+    "created_at": "2026-09-28T10:04:14Z",
+    "duration": 939,
+    "sha": "03f071e39f6b07b05f86c82b294a0f331f35da7f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36407441058",
+    "pr": null,
+    "display_title": "Encrypt sensitive notifications (#25608)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36407441058,
+    "created_at": "2026-09-28T10:04:14Z",
+    "duration": 2653,
+    "sha": "03f071e39f6b07b05f86c82b294a0f331f35da7f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36407441058",
+    "pr": null,
+    "display_title": "Encrypt sensitive notifications (#25608)",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36400382056,
+    "created_at": "2026-09-28T08:56:27Z",
+    "duration": 1119,
+    "sha": "a15db7d1f3c65636de54bda4709176d0e13abfd5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36400382056",
+    "pr": null,
+    "display_title": "KB : Add home (#25576)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36400382056,
+    "created_at": "2026-09-28T08:56:27Z",
+    "duration": 2475,
+    "sha": "a15db7d1f3c65636de54bda4709176d0e13abfd5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36400382056",
+    "pr": null,
+    "display_title": "KB : Add home (#25576)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 36396565410,
     "created_at": "2026-09-28T08:18:17Z",
     "duration": 826,
@@ -166,6 +670,30 @@
     "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36385200559,
+    "created_at": "2026-09-28T06:11:08Z",
+    "duration": 615,
+    "sha": "49cf78474ae7da6d589d826e94731c38f216743d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36385200559",
+    "pr": null,
+    "display_title": "fix missing names_format int cast in comparison",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36385200559,
+    "created_at": "2026-09-28T06:11:08Z",
+    "duration": 2114,
+    "sha": "49cf78474ae7da6d589d826e94731c38f216743d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36385200559",
+    "pr": null,
+    "display_title": "fix missing names_format int cast in comparison",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 36361072098,
@@ -264,6 +792,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 36142934426,
+    "created_at": "2026-09-25T13:44:56Z",
+    "duration": 957,
+    "sha": "07faa7c555591bf2010e4579e26aee8c5303b7ad",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36142934426",
+    "pr": null,
+    "display_title": "KB : revision parent access control (#25637)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36142934426,
+    "created_at": "2026-09-25T13:44:56Z",
+    "duration": 2685,
+    "sha": "07faa7c555591bf2010e4579e26aee8c5303b7ad",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36142934426",
+    "pr": null,
+    "display_title": "KB : revision parent access control (#25637)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 36128514706,
     "created_at": "2026-09-25T11:16:45Z",
     "duration": 522,
@@ -286,6 +838,78 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36127480362,
+    "created_at": "2026-09-25T11:05:16Z",
+    "duration": 679,
+    "sha": "f161fc7132e23bb7a9d9a6e0e62e72056353fb7f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36127480362",
+    "pr": null,
+    "display_title": "fix(46379): Disabled crontask rescheduling after manual execution (#2…",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36127480362,
+    "created_at": "2026-09-25T11:05:16Z",
+    "duration": 2708,
+    "sha": "f161fc7132e23bb7a9d9a6e0e62e72056353fb7f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36127480362",
+    "pr": null,
+    "display_title": "fix(46379): Disabled crontask rescheduling after manual execution (#2…",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36124949421,
+    "created_at": "2026-09-25T10:37:06Z",
+    "duration": 799,
+    "sha": "ce1ef72e5dceed53f977dd312dc53fee5857fc2c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36124949421",
+    "pr": null,
+    "display_title": "KB some RTL fixes (#25607)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36124949421,
+    "created_at": "2026-09-25T10:37:06Z",
+    "duration": 2724,
+    "sha": "ce1ef72e5dceed53f977dd312dc53fee5857fc2c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36124949421",
+    "pr": null,
+    "display_title": "KB some RTL fixes (#25607)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36112676713,
+    "created_at": "2026-09-25T08:23:43Z",
+    "duration": 610,
+    "sha": "a13202086b47ca414297bf267a91c5c1214c9f40",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36112676713",
+    "pr": null,
+    "display_title": "show the first level of articles beside Home instead of under it",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36112676713,
+    "created_at": "2026-09-25T08:23:43Z",
+    "duration": 2614,
+    "sha": "a13202086b47ca414297bf267a91c5c1214c9f40",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36112676713",
+    "pr": null,
+    "display_title": "show the first level of articles beside Home instead of under it",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 36112194897,
@@ -360,6 +984,102 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 36002484113,
+    "created_at": "2026-09-24T12:58:12Z",
+    "duration": 842,
+    "sha": "8a8ef9fe1bfd63c39d4163b8bb0e2bbaf8c66c5c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36002484113",
+    "pr": null,
+    "display_title": "Allow only users that can edit an article to link documents (#25627)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 36002484113,
+    "created_at": "2026-09-24T12:58:12Z",
+    "duration": 2687,
+    "sha": "8a8ef9fe1bfd63c39d4163b8bb0e2bbaf8c66c5c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36002484113",
+    "pr": null,
+    "display_title": "Allow only users that can edit an article to link documents (#25627)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35980879478,
+    "created_at": "2026-09-24T09:22:55Z",
+    "duration": 815,
+    "sha": "f4dbc3db2c99a771afc00d63d2d20df666752446",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35980879478",
+    "pr": null,
+    "display_title": "fix(46379): Display error when a crontask has a lastrun and no next_run",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35980879478,
+    "created_at": "2026-09-24T09:22:55Z",
+    "duration": 2365,
+    "sha": "f4dbc3db2c99a771afc00d63d2d20df666752446",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35980879478",
+    "pr": null,
+    "display_title": "fix(46379): Display error when a crontask has a lastrun and no next_run",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35976813025,
+    "created_at": "2026-09-24T08:42:25Z",
+    "duration": 1015,
+    "sha": "3ff00fe9b284adffe74ea51c5918d2b43f17a0b9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35976813025",
+    "pr": null,
+    "display_title": "Remove \"to_rev\" case from legacy KB controller (#25621)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35976813025,
+    "created_at": "2026-09-24T08:42:25Z",
+    "duration": 2582,
+    "sha": "3ff00fe9b284adffe74ea51c5918d2b43f17a0b9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35976813025",
+    "pr": null,
+    "display_title": "Remove \"to_rev\" case from legacy KB controller (#25621)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35973328295,
+    "created_at": "2026-09-24T08:06:40Z",
+    "duration": 619,
+    "sha": "180ec7fe2915949307f2929709d0e25b5831c433",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35973328295",
+    "pr": null,
+    "display_title": "Return only safe rich text for KB translations (#25618)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35973328295,
+    "created_at": "2026-09-24T08:06:40Z",
+    "duration": 2687,
+    "sha": "180ec7fe2915949307f2929709d0e25b5831c433",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35973328295",
+    "pr": null,
+    "display_title": "Return only safe rich text for KB translations (#25618)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35972902803,
     "created_at": "2026-09-24T08:02:11Z",
     "duration": 914,
@@ -382,6 +1102,30 @@
     "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 35963555422,
+    "created_at": "2026-09-24T06:14:34Z",
+    "duration": 771,
+    "sha": "ef82d2f21fce8b7365bf3c3c149c1c39966fb374",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35963555422",
+    "pr": null,
+    "display_title": "Fix KB child article visibility",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35963555422,
+    "created_at": "2026-09-24T06:14:34Z",
+    "duration": 2678,
+    "sha": "ef82d2f21fce8b7365bf3c3c149c1c39966fb374",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35963555422",
+    "pr": null,
+    "display_title": "Fix KB child article visibility",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 35962961691,
@@ -576,6 +1320,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 35736516969,
+    "created_at": "2026-09-22T13:53:33Z",
+    "duration": 608,
+    "sha": "b18bef47de387c45670ebd4b9837fff163b6890d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35736516969",
+    "pr": null,
+    "display_title": "Merge `canComment` calls into a single var (#25597)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35736516969,
+    "created_at": "2026-09-22T13:53:33Z",
+    "duration": 2667,
+    "sha": "b18bef47de387c45670ebd4b9837fff163b6890d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35736516969",
+    "pr": null,
+    "display_title": "Merge `canComment` calls into a single var (#25597)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35713830053,
     "created_at": "2026-09-22T10:03:08Z",
     "duration": 931,
@@ -696,6 +1464,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 35600578529,
+    "created_at": "2026-09-21T12:37:06Z",
+    "duration": 998,
+    "sha": "72a4d6209c57e4a366da157116513d6eef3c1030",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35600578529",
+    "pr": null,
+    "display_title": "Fix flaky e2e KB tests (#25584)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35600578529,
+    "created_at": "2026-09-21T12:37:06Z",
+    "duration": 2307,
+    "sha": "72a4d6209c57e4a366da157116513d6eef3c1030",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35600578529",
+    "pr": null,
+    "display_title": "Fix flaky e2e KB tests (#25584)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35599841385,
     "created_at": "2026-09-21T12:29:34Z",
     "duration": 577,
@@ -790,6 +1582,30 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 35573042509,
+    "created_at": "2026-09-21T07:27:24Z",
+    "duration": 1008,
+    "sha": "5a46b8b2a32b3e61f794c56104462e9882d03036",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35573042509",
+    "pr": null,
+    "display_title": "Handle null dates in the KB (#25575)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35573042509,
+    "created_at": "2026-09-21T07:27:24Z",
+    "duration": 2714,
+    "sha": "5a46b8b2a32b3e61f794c56104462e9882d03036",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35573042509",
+    "pr": null,
+    "display_title": "Handle null dates in the KB (#25575)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 35546683004,
@@ -888,6 +1704,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 35331209368,
+    "created_at": "2026-09-18T09:45:37Z",
+    "duration": 1129,
+    "sha": "3d144ef8b82217c8c7edb17f5f32452f15eef17f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35331209368",
+    "pr": null,
+    "display_title": "KB : add handler for aside's resize (#25528)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35331209368,
+    "created_at": "2026-09-18T09:45:37Z",
+    "duration": 2317,
+    "sha": "3d144ef8b82217c8c7edb17f5f32452f15eef17f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35331209368",
+    "pr": null,
+    "display_title": "KB : add handler for aside's resize (#25528)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35289783698,
     "created_at": "2026-09-18T00:06:39Z",
     "duration": 871,
@@ -910,6 +1750,30 @@
     "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 35228435919,
+    "created_at": "2026-09-17T13:39:19Z",
+    "duration": 1029,
+    "sha": "87451dba053fbebe7b4318a9549efcbbb5f53be6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35228435919",
+    "pr": null,
+    "display_title": "Use reminder translations in the planning (#25463)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35228435919,
+    "created_at": "2026-09-17T13:39:19Z",
+    "duration": 2159,
+    "sha": "87451dba053fbebe7b4318a9549efcbbb5f53be6",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35228435919",
+    "pr": null,
+    "display_title": "Use reminder translations in the planning (#25463)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 35227012713,
@@ -984,6 +1848,30 @@
     "branch": "main"
   },
   {
+    "id": 35221174194,
+    "created_at": "2026-09-17T12:27:06Z",
+    "duration": 974,
+    "sha": "3ff6989dbf9772880501b873cec98210fee0526c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35221174194",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35221174194,
+    "created_at": "2026-09-17T12:27:06Z",
+    "duration": 2619,
+    "sha": "3ff6989dbf9772880501b873cec98210fee0526c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35221174194",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35201475387,
     "created_at": "2026-09-17T08:46:13Z",
     "duration": 900,
@@ -1056,6 +1944,30 @@
     "branch": "main"
   },
   {
+    "id": 35191995202,
+    "created_at": "2026-09-17T06:55:01Z",
+    "duration": 792,
+    "sha": "bfcbe5b28b2e04408fba9ff77db299f06027fce5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35191995202",
+    "pr": null,
+    "display_title": "Fix flaky e2e specs on modal dismissal and hover reveals (#25534)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35191995202,
+    "created_at": "2026-09-17T06:55:01Z",
+    "duration": 2468,
+    "sha": "bfcbe5b28b2e04408fba9ff77db299f06027fce5",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35191995202",
+    "pr": null,
+    "display_title": "Fix flaky e2e specs on modal dismissal and hover reveals (#25534)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35189991748,
     "created_at": "2026-09-17T06:28:41Z",
     "duration": 687,
@@ -1078,6 +1990,30 @@
     "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 35189635980,
+    "created_at": "2026-09-17T06:23:48Z",
+    "duration": 1030,
+    "sha": "7c1ab7baee7ed59cc7b67023d82501c404c159e9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35189635980",
+    "pr": null,
+    "display_title": "Import LDAP user location in the assigned entity (#25485)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35189635980,
+    "created_at": "2026-09-17T06:23:48Z",
+    "duration": 2279,
+    "sha": "7c1ab7baee7ed59cc7b67023d82501c404c159e9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35189635980",
+    "pr": null,
+    "display_title": "Import LDAP user location in the assigned entity (#25485)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 35165172198,
@@ -1152,6 +2088,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 35109103163,
+    "created_at": "2026-09-16T14:31:24Z",
+    "duration": 694,
+    "sha": "3909a2fc6729cb35de5e544f0827ddb236999cfd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35109103163",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35109103163,
+    "created_at": "2026-09-16T14:31:24Z",
+    "duration": 2467,
+    "sha": "3909a2fc6729cb35de5e544f0827ddb236999cfd",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35109103163",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35104877640,
     "created_at": "2026-09-16T13:53:49Z",
     "duration": 612,
@@ -1200,6 +2160,30 @@
     "branch": "main"
   },
   {
+    "id": 35096175312,
+    "created_at": "2026-09-16T12:30:00Z",
+    "duration": 986,
+    "sha": "1109ce000ab0d68a8eb1f0d0c56c22dc594e56c9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35096175312",
+    "pr": null,
+    "display_title": "Do not treat a form answer of 0 as empty (#25520)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35096175312,
+    "created_at": "2026-09-16T12:30:00Z",
+    "duration": 2442,
+    "sha": "1109ce000ab0d68a8eb1f0d0c56c22dc594e56c9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35096175312",
+    "pr": null,
+    "display_title": "Do not treat a form answer of 0 as empty (#25520)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 35078624440,
     "created_at": "2026-09-16T09:18:03Z",
     "duration": 919,
@@ -1222,6 +2206,30 @@
     "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "main"
+  },
+  {
+    "id": 35077145900,
+    "created_at": "2026-09-16T09:02:39Z",
+    "duration": 1009,
+    "sha": "6a29f949ff30fe0b67612d8bedfc12d328ff8481",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35077145900",
+    "pr": null,
+    "display_title": "Fix E2E tests (#25524)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 35077145900,
+    "created_at": "2026-09-16T09:02:39Z",
+    "duration": 2722,
+    "sha": "6a29f949ff30fe0b67612d8bedfc12d328ff8481",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/35077145900",
+    "pr": null,
+    "display_title": "Fix E2E tests (#25524)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 35071029812,
@@ -1296,6 +2304,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34976548881,
+    "created_at": "2026-09-15T13:40:42Z",
+    "duration": 971,
+    "sha": "a253802136ab91f2223867eebd0ac80f0069e243",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34976548881",
+    "pr": null,
+    "display_title": "fix select2 exact-match and rebuild races in item.spec.ts (#25481)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34976548881,
+    "created_at": "2026-09-15T13:40:42Z",
+    "duration": 2715,
+    "sha": "a253802136ab91f2223867eebd0ac80f0069e243",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34976548881",
+    "pr": null,
+    "display_title": "fix select2 exact-match and rebuild races in item.spec.ts (#25481)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34975606012,
     "created_at": "2026-09-15T13:32:03Z",
     "duration": 732,
@@ -1318,6 +2350,30 @@
     "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34971531552,
+    "created_at": "2026-09-15T12:53:13Z",
+    "duration": 849,
+    "sha": "e53ca947914b5f08f1fd24bfdee050d149fb9db3",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34971531552",
+    "pr": null,
+    "display_title": "Fix TTR OLA type migrated with the wrong value (#25484)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34971531552,
+    "created_at": "2026-09-15T12:53:13Z",
+    "duration": 2435,
+    "sha": "e53ca947914b5f08f1fd24bfdee050d149fb9db3",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34971531552",
+    "pr": null,
+    "display_title": "Fix TTR OLA type migrated with the wrong value (#25484)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34970087782,
@@ -1416,6 +2472,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34953257747,
+    "created_at": "2026-09-15T09:34:35Z",
+    "duration": 978,
+    "sha": "ac4c891e55574b7e4e396aae523de619dae5c6f1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34953257747",
+    "pr": null,
+    "display_title": "Update translations",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34953257747,
+    "created_at": "2026-09-15T09:34:35Z",
+    "duration": 2796,
+    "sha": "ac4c891e55574b7e4e396aae523de619dae5c6f1",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34953257747",
+    "pr": null,
+    "display_title": "Update translations",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34947309526,
     "created_at": "2026-09-15T08:30:15Z",
     "duration": 638,
@@ -1488,6 +2568,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34846129801,
+    "created_at": "2026-09-14T12:55:40Z",
+    "duration": 999,
+    "sha": "f5faaa15d35c242383be09bed20beb7a760bfb06",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34846129801",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34846129801,
+    "created_at": "2026-09-14T12:55:40Z",
+    "duration": 2857,
+    "sha": "f5faaa15d35c242383be09bed20beb7a760bfb06",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34846129801",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34827397624,
     "created_at": "2026-09-14T09:20:22Z",
     "duration": 891,
@@ -1512,6 +2616,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34826275046,
+    "created_at": "2026-09-14T09:07:56Z",
+    "duration": 1116,
+    "sha": "1ea7f578c0a6ceda37ed14c99a68f0fc874de4d3",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34826275046",
+    "pr": null,
+    "display_title": "fix linking kb article from an asset (#25459)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34826275046,
+    "created_at": "2026-09-14T09:07:56Z",
+    "duration": 2861,
+    "sha": "1ea7f578c0a6ceda37ed14c99a68f0fc874de4d3",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34826275046",
+    "pr": null,
+    "display_title": "fix linking kb article from an asset (#25459)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34825345258,
     "created_at": "2026-09-14T08:57:16Z",
     "duration": 897,
@@ -1534,6 +2662,30 @@
     "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34823864517,
+    "created_at": "2026-09-14T08:39:51Z",
+    "duration": 996,
+    "sha": "5b344baac77d91db9724d0d0b10d99e22e7e181d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34823864517",
+    "pr": null,
+    "display_title": "Fix possible flaky e2e spec (#25472)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34823864517,
+    "created_at": "2026-09-14T08:39:51Z",
+    "duration": 2822,
+    "sha": "5b344baac77d91db9724d0d0b10d99e22e7e181d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34823864517",
+    "pr": null,
+    "display_title": "Fix possible flaky e2e spec (#25472)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34821622410,
@@ -1582,6 +2734,30 @@
     "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34815362272,
+    "created_at": "2026-09-14T06:53:37Z",
+    "duration": 1055,
+    "sha": "8602d3a9e512a616947fdb9f9fc948ddda52ff6e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34815362272",
+    "pr": null,
+    "display_title": "hlapi align status name for custom assets (#25490)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34815362272,
+    "created_at": "2026-09-14T06:53:37Z",
+    "duration": 2887,
+    "sha": "8602d3a9e512a616947fdb9f9fc948ddda52ff6e",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34815362272",
+    "pr": null,
+    "display_title": "hlapi align status name for custom assets (#25490)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34791694790,
@@ -1654,6 +2830,30 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34589740197,
+    "created_at": "2026-09-11T10:32:47Z",
+    "duration": 995,
+    "sha": "71a854d66f28a0fd4d9bda5355c421ae1a0320c8",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34589740197",
+    "pr": null,
+    "display_title": "Fix planning resize/move error",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34589740197,
+    "created_at": "2026-09-11T10:32:47Z",
+    "duration": 2736,
+    "sha": "71a854d66f28a0fd4d9bda5355c421ae1a0320c8",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34589740197",
+    "pr": null,
+    "display_title": "Fix planning resize/move error",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34587270459,
@@ -1752,6 +2952,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34480780364,
+    "created_at": "2026-09-10T13:08:20Z",
+    "duration": 940,
+    "sha": "22811cde2c6e96c9e194407df08b775a3d855cc9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34480780364",
+    "pr": null,
+    "display_title": "Icon picker: allow \"no illustration\" value only for the KB (#25442)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34480780364,
+    "created_at": "2026-09-10T13:08:20Z",
+    "duration": 2910,
+    "sha": "22811cde2c6e96c9e194407df08b775a3d855cc9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34480780364",
+    "pr": null,
+    "display_title": "Icon picker: allow \"no illustration\" value only for the KB (#25442)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34473923619,
     "created_at": "2026-09-10T11:56:09Z",
     "duration": 868,
@@ -1798,6 +3022,54 @@
     "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34464342842,
+    "created_at": "2026-09-10T10:07:00Z",
+    "duration": 778,
+    "sha": "6b4c081dc511cb32efc6d6001eea62837d7a3789",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34464342842",
+    "pr": null,
+    "display_title": "KB : improve bubblemenu nav, a11y and cleaning (#25403)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34464342842,
+    "created_at": "2026-09-10T10:07:00Z",
+    "duration": 2780,
+    "sha": "6b4c081dc511cb32efc6d6001eea62837d7a3789",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34464342842",
+    "pr": null,
+    "display_title": "KB : improve bubblemenu nav, a11y and cleaning (#25403)",
+    "job_name": "Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34453811662,
+    "created_at": "2026-09-10T08:11:15Z",
+    "duration": 1157,
+    "sha": "fcce2e46dc1fefeee975d4c22537dea432d643ae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34453811662",
+    "pr": null,
+    "display_title": "Handle QueryElementInterface in GROUPBY clause (#25422)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34453811662,
+    "created_at": "2026-09-10T08:11:15Z",
+    "duration": 2724,
+    "sha": "fcce2e46dc1fefeee975d4c22537dea432d643ae",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34453811662",
+    "pr": null,
+    "display_title": "Handle QueryElementInterface in GROUPBY clause (#25422)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34419879350,
@@ -1896,6 +3168,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34344747448,
+    "created_at": "2026-09-09T11:17:17Z",
+    "duration": 948,
+    "sha": "771bea97ffe268388c01d21382f350468dbb8fe9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34344747448",
+    "pr": null,
+    "display_title": "fix docs badges color inheritance (#25435)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34344747448,
+    "created_at": "2026-09-09T11:17:17Z",
+    "duration": 2663,
+    "sha": "771bea97ffe268388c01d21382f350468dbb8fe9",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34344747448",
+    "pr": null,
+    "display_title": "fix docs badges color inheritance (#25435)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2), E2E and web tests using latest PHP and MariaDB versions",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34344303076,
     "created_at": "2026-09-09T11:12:16Z",
     "duration": 995,
@@ -1944,6 +3240,54 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34237690868,
+    "created_at": "2026-09-08T14:21:04Z",
+    "duration": 976,
+    "sha": "ac483e3c12a6c94bdc0778e13670c53e06dc0e8d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34237690868",
+    "pr": null,
+    "display_title": "a11y fixes",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34237690868,
+    "created_at": "2026-09-08T14:21:04Z",
+    "duration": 2674,
+    "sha": "ac483e3c12a6c94bdc0778e13670c53e06dc0e8d",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34237690868",
+    "pr": null,
+    "display_title": "a11y fixes",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34225913079,
+    "created_at": "2026-09-08T12:24:39Z",
+    "duration": 1029,
+    "sha": "953ce06048556151569266656ddcbd64bac3977b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34225913079",
+    "pr": null,
+    "display_title": "KB dark theme and other UI fixes (#25384)",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34225913079,
+    "created_at": "2026-09-08T12:24:39Z",
+    "duration": 2869,
+    "sha": "953ce06048556151569266656ddcbd64bac3977b",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34225913079",
+    "pr": null,
+    "display_title": "KB dark theme and other UI fixes (#25384)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34224407266,
     "created_at": "2026-09-08T12:08:20Z",
     "duration": 869,
@@ -1966,6 +3310,30 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34199457537,
+    "created_at": "2026-09-08T07:27:56Z",
+    "duration": 944,
+    "sha": "410866bcd7ffd17aebb8dd8a25fdd392c86fb568",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34199457537",
+    "pr": null,
+    "display_title": "adjusting colors for dark themes (#25419)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34199457537,
+    "created_at": "2026-09-08T07:27:56Z",
+    "duration": 2852,
+    "sha": "410866bcd7ffd17aebb8dd8a25fdd392c86fb568",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34199457537",
+    "pr": null,
+    "display_title": "adjusting colors for dark themes (#25419)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34172287312,
@@ -2040,6 +3408,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 34118234559,
+    "created_at": "2026-09-07T11:45:13Z",
+    "duration": 983,
+    "sha": "ba1a495055ec978e654d2c4b7c939f387f8474bb",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34118234559",
+    "pr": null,
+    "display_title": "Fix missing translation dates during KB migration (#25416)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34118234559,
+    "created_at": "2026-09-07T11:45:13Z",
+    "duration": 2707,
+    "sha": "ba1a495055ec978e654d2c4b7c939f387f8474bb",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34118234559",
+    "pr": null,
+    "display_title": "Fix missing translation dates during KB migration (#25416)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 34116973028,
     "created_at": "2026-09-07T11:30:31Z",
     "duration": 865,
@@ -2062,6 +3454,54 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 34114596757,
+    "created_at": "2026-09-07T11:03:07Z",
+    "duration": 1016,
+    "sha": "43a5dc322ec0287913bd044fec4359d89512e540",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34114596757",
+    "pr": null,
+    "display_title": "Fix missing translation dates during KB migration",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34114596757,
+    "created_at": "2026-09-07T11:03:07Z",
+    "duration": 2732,
+    "sha": "43a5dc322ec0287913bd044fec4359d89512e540",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34114596757",
+    "pr": null,
+    "display_title": "Fix missing translation dates during KB migration",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34097992381,
+    "created_at": "2026-09-07T07:56:40Z",
+    "duration": 732,
+    "sha": "734f835223349bf08a063fd7a4f457a0b2043bfe",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34097992381",
+    "pr": null,
+    "display_title": "Unset COOKIE to prevent flaky test",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 34097992381,
+    "created_at": "2026-09-07T07:56:40Z",
+    "duration": 2681,
+    "sha": "734f835223349bf08a063fd7a4f457a0b2043bfe",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/34097992381",
+    "pr": null,
+    "display_title": "Unset COOKIE to prevent flaky test",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 34087904323,
@@ -2280,6 +3720,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 33726883331,
+    "created_at": "2026-09-03T07:12:02Z",
+    "duration": 938,
+    "sha": "de5d13ac6c642d40f6f0b4e6a0c1832ae56d875a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33726883331",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "Test on PHP 8.3 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33726883331,
+    "created_at": "2026-09-03T07:12:02Z",
+    "duration": 2862,
+    "sha": "de5d13ac6c642d40f6f0b4e6a0c1832ae56d875a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33726883331",
+    "pr": null,
+    "display_title": "Merge branch '11.0/bugfixes' into 12.0/bugfixes",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 33724205471,
     "created_at": "2026-09-03T06:39:00Z",
     "duration": 972,
@@ -2328,6 +3792,30 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 33638155776,
+    "created_at": "2026-09-02T13:49:59Z",
+    "duration": 936,
+    "sha": "b48cafaad66632f1112b4e6ae4a09625f0cbcbc7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33638155776",
+    "pr": null,
+    "display_title": "Add conditions like other listeners; closes #25374",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33638155776,
+    "created_at": "2026-09-02T13:49:59Z",
+    "duration": 2874,
+    "sha": "b48cafaad66632f1112b4e6ae4a09625f0cbcbc7",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33638155776",
+    "pr": null,
+    "display_title": "Add conditions like other listeners; closes #25374",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 33637513311,
     "created_at": "2026-09-02T13:43:47Z",
     "duration": 872,
@@ -2352,6 +3840,54 @@
     "branch": "11.0/bugfixes"
   },
   {
+    "id": 33634665890,
+    "created_at": "2026-09-02T13:15:43Z",
+    "duration": 924,
+    "sha": "f25578794a1dcfbc94de834498e3bec759ce2a23",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33634665890",
+    "pr": null,
+    "display_title": "tests on ticket & followup creation. (#25262)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33634665890,
+    "created_at": "2026-09-02T13:15:43Z",
+    "duration": 2905,
+    "sha": "f25578794a1dcfbc94de834498e3bec759ce2a23",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33634665890",
+    "pr": null,
+    "display_title": "tests on ticket & followup creation. (#25262)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33628364068,
+    "created_at": "2026-09-02T12:09:14Z",
+    "duration": 921,
+    "sha": "c6b916dffa11b6e17508752c58726a688fb3315f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33628364068",
+    "pr": null,
+    "display_title": "[HLAPI] Add v3.0.0 (#24940)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33628364068,
+    "created_at": "2026-09-02T12:09:14Z",
+    "duration": 2903,
+    "sha": "c6b916dffa11b6e17508752c58726a688fb3315f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33628364068",
+    "pr": null,
+    "display_title": "[HLAPI] Add v3.0.0 (#24940)",
+    "job_name": "Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 33618951134,
     "created_at": "2026-09-02T10:20:23Z",
     "duration": 616,
@@ -2374,6 +3910,54 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 33617793443,
+    "created_at": "2026-09-02T10:07:16Z",
+    "duration": 952,
+    "sha": "a537d7debfbf6d8d5b38243357599d3e6b66d699",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33617793443",
+    "pr": null,
+    "display_title": "Feat(Plug): dynamic inventory implementation (#22863)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33617793443,
+    "created_at": "2026-09-02T10:07:16Z",
+    "duration": 2687,
+    "sha": "a537d7debfbf6d8d5b38243357599d3e6b66d699",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33617793443",
+    "pr": null,
+    "display_title": "Feat(Plug): dynamic inventory implementation (#22863)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33613765172,
+    "created_at": "2026-09-02T09:22:38Z",
+    "duration": 726,
+    "sha": "fadf19de31d755f924f7f9952f76118cefbae878",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33613765172",
+    "pr": null,
+    "display_title": "add a docker container with a feeded keycloak instance (#24896)",
+    "job_name": "Test on PHP 8.3 using mariadb:10.11",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33613765172,
+    "created_at": "2026-09-02T09:22:38Z",
+    "duration": 2705,
+    "sha": "fadf19de31d755f924f7f9952f76118cefbae878",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33613765172",
+    "pr": null,
+    "display_title": "add a docker container with a feeded keycloak instance (#24896)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 33609361942,
@@ -2422,6 +4006,30 @@
     "job_name": "Playwright tests (1/2), Playwright tests (2/2), E2E and web tests using latest PHP and MariaDB versions",
     "job_category": "E2E Tests",
     "branch": "main"
+  },
+  {
+    "id": 33603674088,
+    "created_at": "2026-09-02T07:27:36Z",
+    "duration": 1060,
+    "sha": "48a9e34af155e3555b44555cd49d38dd277040fc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33603674088",
+    "pr": null,
+    "display_title": "KB : lower unselected comment opacity (#25288)",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33603674088,
+    "created_at": "2026-09-02T07:27:36Z",
+    "duration": 2885,
+    "sha": "48a9e34af155e3555b44555cd49d38dd277040fc",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33603674088",
+    "pr": null,
+    "display_title": "KB : lower unselected comment opacity (#25288)",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 33602491546,
@@ -2518,6 +4126,30 @@
     "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
     "job_category": "E2E Tests",
     "branch": "main"
+  },
+  {
+    "id": 33598343756,
+    "created_at": "2026-09-02T06:19:36Z",
+    "duration": 1088,
+    "sha": "1af79937fc243cdab11959ec99f1bd80e693d2e2",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33598343756",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "Test on PHP 8.5 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 33598343756,
+    "created_at": "2026-09-02T06:19:36Z",
+    "duration": 2747,
+    "sha": "1af79937fc243cdab11959ec99f1bd80e693d2e2",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/33598343756",
+    "pr": null,
+    "display_title": "Extract new locales",
+    "job_name": "E2E and web tests using latest PHP and MariaDB versions, Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
   },
   {
     "id": 33573998857,

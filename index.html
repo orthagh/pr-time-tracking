@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
-  <script type="module" crossorigin src="/pr-time-tracking/assets/index-C56AoPbt.js"></script>
+  <script type="module" crossorigin src="/pr-time-tracking/assets/index-DmeRf8EI.js"></script>
   <link rel="stylesheet" crossorigin href="/pr-time-tracking/assets/index-54frxvRy.css">
 </head>
 <body>
@@ -45,11 +45,20 @@
                 <div class="eyebrow">CI PERFORMANCE</div>
                 <h1 class="title">PR Execution Time</h1>
                 <div class="subtitle">
-                    Tracking <span class="ink">main</span> and
+                    Tracking <span class="ink">main</span>, <span class="ink">12.0/bugfixes</span> and
                     <span class="ink">11.0/bugfixes</span> · successful workflow runs
                 </div>
             </div>
             <div class="controls">
+                <div class="control">
+                    <span class="control-label">branch</span>
+                    <select id="branch">
+                        <option value="main" selected>main</option>
+                        <option value="12.0/bugfixes">12.0/bugfixes</option>
+                        <option value="11.0/bugfixes">11.0/bugfixes</option>
+                        <option value="all">all</option>
+                    </select>
+                </div>
                 <div class="control">
                     <span class="control-label">job</span>
                     <select id="jobCategory">
