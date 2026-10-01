@@ -1,5 +1,77 @@
 [
   {
+    "id": 36826601366,
+    "created_at": "2026-10-01T06:46:44Z",
+    "duration": 545,
+    "sha": "0722f9ec6615ba5d09152e23f26438a91fd4315f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36826601366",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36826601366,
+    "created_at": "2026-10-01T06:46:44Z",
+    "duration": 1796,
+    "sha": "0722f9ec6615ba5d09152e23f26438a91fd4315f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36826601366",
+    "pr": null,
+    "display_title": "Bump version",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36822925731,
+    "created_at": "2026-10-01T06:05:04Z",
+    "duration": 675,
+    "sha": "2184437fd9dd40a0f4a504e046e10ce66449259a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36822925731",
+    "pr": null,
+    "display_title": "Update locales",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36822925731,
+    "created_at": "2026-10-01T06:05:04Z",
+    "duration": 1571,
+    "sha": "2184437fd9dd40a0f4a504e046e10ce66449259a",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36822925731",
+    "pr": null,
+    "display_title": "Update locales",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36794695999,
+    "created_at": "2026-10-01T00:09:03Z",
+    "duration": 669,
+    "sha": "55d09a8c63b4a5bcf9ccad0366df54b72ae67133",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36794695999",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.2 using mariadb:10.6",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 36794695999,
+    "created_at": "2026-10-01T00:09:03Z",
+    "duration": 1690,
+    "sha": "55d09a8c63b4a5bcf9ccad0366df54b72ae67133",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/36794695999",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 36707769638,
     "created_at": "2026-09-30T11:18:54Z",
     "duration": 1055,
