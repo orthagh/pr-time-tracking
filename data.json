@@ -1,5 +1,29 @@
 [
   {
+    "id": 38097420816,
+    "created_at": "2026-10-11T00:08:43Z",
+    "duration": 447,
+    "sha": "c9834add8ad2ffed5a133ea91dea8344df81c977",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/38097420816",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 38097420816,
+    "created_at": "2026-10-11T00:08:43Z",
+    "duration": 2251,
+    "sha": "c9834add8ad2ffed5a133ea91dea8344df81c977",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/38097420816",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 38007692146,
     "created_at": "2026-10-10T00:07:52Z",
     "duration": 381,
