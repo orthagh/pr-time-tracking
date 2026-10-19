@@ -1,5 +1,77 @@
 [
   {
+    "id": 39207403468,
+    "created_at": "2026-10-19T05:59:52Z",
+    "duration": 616,
+    "sha": "b8527efd3dd8125894779256d6fc34220c4d7d7c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39207403468",
+    "pr": null,
+    "display_title": "Fix(FieldUnicity): allow dropdown fields as unique fields (#25966)",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 39207403468,
+    "created_at": "2026-10-19T05:59:52Z",
+    "duration": 2018,
+    "sha": "b8527efd3dd8125894779256d6fc34220c4d7d7c",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39207403468",
+    "pr": null,
+    "display_title": "Fix(FieldUnicity): allow dropdown fields as unique fields (#25966)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 39206569480,
+    "created_at": "2026-10-19T05:50:01Z",
+    "duration": 519,
+    "sha": "5385bada4df676b73866cd61e4b9423e8dec41ac",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39206569480",
+    "pr": null,
+    "display_title": "Fix: avoid doubled subfolder in data and privacy menu link",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 39206569480,
+    "created_at": "2026-10-19T05:50:01Z",
+    "duration": 2197,
+    "sha": "5385bada4df676b73866cd61e4b9423e8dec41ac",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39206569480",
+    "pr": null,
+    "display_title": "Fix: avoid doubled subfolder in data and privacy menu link",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 39179354077,
+    "created_at": "2026-10-19T00:07:35Z",
+    "duration": 603,
+    "sha": "13b5d4d57a977da5ab40e87d4fe741c2e91f7628",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39179354077",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.5 using mariadb:12.3",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 39179354077,
+    "created_at": "2026-10-19T00:07:35Z",
+    "duration": 2187,
+    "sha": "13b5d4d57a977da5ab40e87d4fe741c2e91f7628",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/39179354077",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
     "id": 39081587232,
     "created_at": "2026-10-18T00:07:17Z",
     "duration": 556,
