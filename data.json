@@ -1,5 +1,77 @@
 [
   {
+    "id": 44841295368,
+    "created_at": "2026-11-21T00:04:11Z",
+    "duration": 524,
+    "sha": "68efc52417226531f96de4f2cc85288af1747e4f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44841295368",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Test on PHP 8.6 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 44841295368,
+    "created_at": "2026-11-21T00:04:11Z",
+    "duration": 2450,
+    "sha": "68efc52417226531f96de4f2cc85288af1747e4f",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44841295368",
+    "pr": null,
+    "display_title": "GLPI CI",
+    "job_name": "Playwright tests (1/3), Playwright tests (2/3), Playwright tests (3/3)",
+    "job_category": "E2E Tests",
+    "branch": "12.0/bugfixes"
+  },
+  {
+    "id": 44742271823,
+    "created_at": "2026-11-20T13:12:28Z",
+    "duration": 684,
+    "sha": "9697e39c9ee60cf43ba65c9272c624ebd5b86140",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44742271823",
+    "pr": null,
+    "display_title": "Fix(dashboard): Dashboard Top groups cards display no group name in t…",
+    "job_name": "Test on PHP 8.6 using mysql:9.7",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 44742271823,
+    "created_at": "2026-11-20T13:12:28Z",
+    "duration": 2108,
+    "sha": "9697e39c9ee60cf43ba65c9272c624ebd5b86140",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44742271823",
+    "pr": null,
+    "display_title": "Fix(dashboard): Dashboard Top groups cards display no group name in t…",
+    "job_name": "Playwright tests (1/2), Playwright tests (2/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 44711313158,
+    "created_at": "2026-11-20T09:30:36Z",
+    "duration": 513,
+    "sha": "27ba95fd73a349e186bb67ac9ab18bc4e682de02",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44711313158",
+    "pr": null,
+    "display_title": "Fix flaky form layout test (#26390)",
+    "job_name": "Test on PHP 8.6 using mysql:8.0",
+    "job_category": "PHP Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
+    "id": 44711313158,
+    "created_at": "2026-11-20T09:30:36Z",
+    "duration": 1624,
+    "sha": "27ba95fd73a349e186bb67ac9ab18bc4e682de02",
+    "url": "https://github.com/glpi-project/glpi/actions/runs/44711313158",
+    "pr": null,
+    "display_title": "Fix flaky form layout test (#26390)",
+    "job_name": "Playwright tests (2/2), Playwright tests (1/2)",
+    "job_category": "E2E Tests",
+    "branch": "11.0/bugfixes"
+  },
+  {
     "id": 44707820013,
     "created_at": "2026-11-20T09:05:56Z",
     "duration": 684,
